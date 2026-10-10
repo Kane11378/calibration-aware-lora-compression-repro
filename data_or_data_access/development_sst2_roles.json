@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+  "dataset_split_loaded": "train",
+  "fit_example_count": 63765,
+  "fitting_tokenized": false,
+  "index_hashes": {
+    "calibration": "56ea46882c340d76f5381d2dec612ea5fe1c7742423c4062915249f93343ded0",
+    "fit": "ea819a150d5d2fb79f1a2a889e78eab14317c50f500b0c5d668921a30a9a3617",
+    "reserved_layer_assay": "e3684f2a88ea64bbc5dfe37c554ac793fa2eb46e5d48cfba8bf10a71d2255071",
+    "tuning": "c36990b6b97fb360a96bac4c2a816b002e4168e972e7553cbd9a3820547b9bfd"
+  },
+  "materialized_roles": [
+    "calibration",
+    "tuning"
+  ],
+  "model_revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "official_validation_used": false,
+  "pool_sizes": {
+    "calibration": 512,
+    "tuning": 2048
+  },
+  "reserved_assay_example_count": 1024,
+  "single_layer_assay_used": false,
+  "source_text_included": false,
+  "status": "FROZEN_CONTROL_DATA_ROLES_VERIFIED",
+  "task": "sst2",
+  "training_performed": false
+}

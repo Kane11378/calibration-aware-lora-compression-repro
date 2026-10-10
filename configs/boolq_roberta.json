@@ -1,0 +1,77 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261007,
+  "methods": [
+    "M0",
+    "C1",
+    "S1",
+    "H1",
+    "C2"
+  ],
+  "model_id": "FacebookAI/roberta-base",
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+  "ranks": [
+    8,
+    4,
+    2
+  ],
+  "recipe": {
+    "add_prefix_space": false,
+    "algebra_dtype": "float64",
+    "alpha": 16,
+    "attention_backend": "eager",
+    "batch_size": 32,
+    "best_epoch_selection": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "calibration_examples": 512,
+    "classifier_dropout": 0.1,
+    "derivatives": "float32_no_autocast",
+    "drop_last": false,
+    "early_stopping": false,
+    "epochs": 5,
+    "epsilon": 1e-08,
+    "evaluation_autocast": "bfloat16",
+    "fit_examples": 8915,
+    "gradient_accumulation": 1,
+    "gradient_clip": 1.0,
+    "head": "native_RobertaClassificationHead_dense_tanh_out_proj",
+    "head_lora": false,
+    "hyperparameter_search": false,
+    "input_order": [
+      "question",
+      "passage"
+    ],
+    "learning_rate": 0.0005,
+    "lora_dropout": 0.05,
+    "max_length": 256,
+    "optimizer": "AdamW",
+    "optimizer_parameter_groups": "trainable bias has zero decay, other trainable parameters decay .01, frozen parameters excluded",
+    "padding": "longest_in_batch",
+    "parameter_dtype": "float32",
+    "pooler": false,
+    "rank": 32,
+    "schedule": "linear_warmup_decay",
+    "seed_replacement": false,
+    "source_seeds": [
+      607,
+      701,
+      809
+    ],
+    "steps_per_epoch": 279,
+    "total_steps": 1395,
+    "training_autocast": "bfloat16",
+    "truncation": "longest_first",
+    "warmup_rule": "ceil(.06*total_optimizer_steps)",
+    "warmup_steps": 84,
+    "weight_decay": 0.01
+  },
+  "seeds": [
+    607,
+    701,
+    809
+  ],
+  "tokenizer_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+}

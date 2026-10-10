@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "concept_doi": {
+      "pattern": "^10\\.5281/zenodo\\.[1-9][0-9]*$",
+      "type": "string"
+    },
+    "creator": {
+      "additionalProperties": false,
+      "properties": {
+        "affiliation": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "email": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "orcid": {
+          "pattern": "^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "email",
+        "orcid",
+        "affiliation"
+      ],
+      "type": "object"
+    },
+    "doi": {
+      "pattern": "^10\\.5281/zenodo\\.[1-9][0-9]*$",
+      "type": "string"
+    },
+    "release_commit": {
+      "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$",
+      "type": "string"
+    },
+    "release_date": {
+      "format": "date",
+      "type": "string"
+    },
+    "release_url": {
+      "pattern": "^https:\\/\\/github\\.com/[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_.-]+/releases/tag/[^\\s?#]+$",
+      "type": "string"
+    },
+    "repository_url": {
+      "pattern": "^https:\\/\\/github\\.com/[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_.-]+$",
+      "type": "string"
+    },
+    "reproduction": {
+      "additionalProperties": false,
+      "properties": {
+        "document_rebuild_supported": {
+          "type": "boolean"
+        },
+        "experimental_runner_complete": {
+          "type": "boolean"
+        },
+        "full_preprint_included": {
+          "type": "boolean"
+        },
+        "required_assets": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "static_verification_command": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "static_verification_command",
+        "experimental_runner_complete",
+        "document_rebuild_supported",
+        "full_preprint_included",
+        "required_assets"
+      ],
+      "type": "object"
+    },
+    "resource_type": {
+      "const": "software"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "scientific_scope": {
+      "additionalProperties": false,
+      "properties": {
+        "methods": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "stored_evidence": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "methods",
+        "stored_evidence"
+      ],
+      "type": "object"
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "version": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    },
+    "zenodo_record_url": {
+      "pattern": "^https:\\/\\/zenodo\\.org/records/[1-9][0-9]*$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "title",
+    "version",
+    "resource_type",
+    "creator",
+    "scientific_scope",
+    "reproduction"
+  ],
+  "title": "Scientific publication metadata",
+  "type": "object"
+}

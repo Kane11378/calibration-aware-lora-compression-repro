@@ -1,0 +1,65 @@
+{
+  "alias_namespace": "Original figure-export paths relative to the separate article materials. These source exports are not distributed here.",
+  "comparison_basis": "Byte-identical retained CSV files. Canonical file paths have no identity aliases.",
+  "duplicate_exports": {
+    "artwork/finite_calibration/panel_a_individual.csv": "results/finite_calibration/analysis/figures/dependency_weight_source_data.csv",
+    "artwork/finite_calibration/panel_a_summary.csv": "tables/finite_calibration/weight_stability.csv",
+    "artwork/finite_calibration/panel_b_display_means.csv": "figure_source_data/finite_calibration/main_figure/panel_b_display_means.csv",
+    "artwork/finite_calibration/panel_b_display_trajectories.csv": "figure_source_data/finite_calibration/main_figure/panel_b_display_trajectories.csv",
+    "artwork/finite_calibration/panel_b_individual_by_rank.csv": "tables/finite_calibration/coefficient_stability_complete.csv",
+    "artwork/finite_calibration/panel_b_summary_by_rank.csv": "tables/finite_calibration/coefficient_stability_summary.csv",
+    "artwork/finite_calibration/panel_c_individual.csv": "tables/finite_calibration/source_equal_rank_contrasts.csv",
+    "artwork/finite_calibration/panel_c_summary.csv": "tables/finite_calibration/contrast_stability.csv"
+  },
+  "schema": "gri-h1-data-aliases-v2",
+  "source_exports": {
+    "artwork/finite_calibration/panel_a_individual.csv": {
+      "bytes": 29294,
+      "explanation": "Original panel A per-source export; identical values are retained in the consolidated dependency-weight source data.",
+      "sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8",
+      "source_path": "paper/artwork/finite_calibration/panel_a_individual.csv"
+    },
+    "artwork/finite_calibration/panel_a_summary.csv": {
+      "bytes": 30510,
+      "explanation": "Original panel A summary export; the archived weight-stability table preserves its exact bytes.",
+      "sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720",
+      "source_path": "paper/artwork/finite_calibration/panel_a_summary.csv"
+    },
+    "artwork/finite_calibration/panel_b_display_means.csv": {
+      "bytes": 5805,
+      "explanation": "Original panel B display-mean export; the retained figure-data file preserves its exact bytes.",
+      "sha256": "dbc6f3e1b5c2a67ef353ec7e0124733fb2de065f5c941089da21f72fef45bde4",
+      "source_path": "paper/artwork/finite_calibration/panel_b_display_means.csv"
+    },
+    "artwork/finite_calibration/panel_b_display_trajectories.csv": {
+      "bytes": 24716,
+      "explanation": "Original panel B display-trajectory export; the retained figure-data file preserves its exact bytes.",
+      "sha256": "3cb8bd702bb7cc448a62dd9a6cd4d38131d31adcbd6092f8f38f38a2155efb5e",
+      "source_path": "paper/artwork/finite_calibration/panel_b_display_trajectories.csv"
+    },
+    "artwork/finite_calibration/panel_b_individual_by_rank.csv": {
+      "bytes": 127893,
+      "explanation": "Original panel B per-rank export; the complete coefficient-stability table preserves its exact bytes.",
+      "sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40",
+      "source_path": "paper/artwork/finite_calibration/panel_b_individual_by_rank.csv"
+    },
+    "artwork/finite_calibration/panel_b_summary_by_rank.csv": {
+      "bytes": 100680,
+      "explanation": "Original panel B per-rank summary export; the coefficient-stability summary table preserves its exact bytes.",
+      "sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e",
+      "source_path": "paper/artwork/finite_calibration/panel_b_summary_by_rank.csv"
+    },
+    "artwork/finite_calibration/panel_c_individual.csv": {
+      "bytes": 16782,
+      "explanation": "Original panel C individual-contrast export; the source-equal-rank contrast table preserves its exact bytes.",
+      "sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab",
+      "source_path": "paper/artwork/finite_calibration/panel_c_individual.csv"
+    },
+    "artwork/finite_calibration/panel_c_summary.csv": {
+      "bytes": 13584,
+      "explanation": "Original panel C contrast-summary export; the contrast-stability table preserves its exact bytes.",
+      "sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea",
+      "source_path": "paper/artwork/finite_calibration/panel_c_summary.csv"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "BOOTSTRAP_RESAMPLES": 10000,
+  "BOOTSTRAP_SEED": 20261006,
+  "CALIBRATION_COUNT": 512,
+  "CONTROLS": [
+    "M0",
+    "C1",
+    "S1",
+    "H1",
+    "C2"
+  ],
+  "ENDPOINT_COUNTS": {
+    "boolq": 3270,
+    "qnli": 5463,
+    "sst2": 2048
+  },
+  "ENDPOINT_ROLES": {
+    "boolq": "validation",
+    "qnli": "validation",
+    "sst2": "tuning"
+  },
+  "METHODS": [
+    "M0",
+    "C1",
+    "S1",
+    "H1",
+    "C2",
+    "SURGEON_U",
+    "SURGEON_S",
+    "PARA_COUNT",
+    "PARA_PARAMETER",
+    "SPECTRAL_ABS",
+    "SPECTRAL_SMOOTH",
+    "SPECTRAL_RANDOM",
+    "SPECTRAL_GRAD"
+  ],
+  "METHOD_NAMES": {
+    "PARA_COUNT": "PARA_PAPER_COMPONENT_COUNT_TRANSFER",
+    "PARA_PARAMETER": "PARA_FACTOR_PARAMETER_BUDGET_PORT",
+    "SPECTRAL_ABS": "SPECTRAL_SURGERY_ABS_RANKK_TRANSFER",
+    "SPECTRAL_GRAD": "SPECTRAL_SURGERY_GRAD_RANKK_TRANSFER",
+    "SPECTRAL_RANDOM": "SPECTRAL_SURGERY_RANDOM_RANKK_CONTROL",
+    "SPECTRAL_SMOOTH": "SPECTRAL_SURGERY_SMOOTH_RANKK_TRANSFER",
+    "SURGEON_S": "SURGEON_S_CLASSIFICATION_LORA_TRANSFER",
+    "SURGEON_U": "SURGEON_U_CLASSIFICATION_LORA_TRANSFER"
+  },
+  "NEW_METHODS": [
+    "SURGEON_U",
+    "SURGEON_S",
+    "PARA_COUNT",
+    "PARA_PARAMETER",
+    "SPECTRAL_ABS",
+    "SPECTRAL_SMOOTH",
+    "SPECTRAL_RANDOM",
+    "SPECTRAL_GRAD"
+  ],
+  "RANKS": [
+    8,
+    4,
+    2
+  ],
+  "SOURCES": [
+    [
+      "sst2",
+      61
+    ],
+    [
+      "sst2",
+      73
+    ],
+    [
+      "qnli",
+      101
+    ],
+    [
+      "qnli",
+      137
+    ],
+    [
+      "qnli",
+      211
+    ],
+    [
+      "boolq",
+      307
+    ],
+    [
+      "boolq",
+      401
+    ],
+    [
+      "boolq",
+      503
+    ]
+  ],
+  "SPECTRAL_CALIBRATION_COUNT": 128
+}

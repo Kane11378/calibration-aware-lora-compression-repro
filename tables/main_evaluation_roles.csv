@@ -1,0 +1,5 @@
+task,backbone,source_seeds,evaluation_examples,calibration_examples,role
+SST-2,DeBERTa-v3-base,61/73,2048,512,development; train-derived tuning
+QNLI,DeBERTa-v3-base,101/137/211,5463,512,post-outcome H1 development; public validation
+BoolQ,DeBERTa-v3-base,307/401/503,3270,512,locked new-task confirmation; public validation
+BoolQ,RoBERTa-base,607/701/809,3270,512,frozen second-backbone replication; same raw IDs

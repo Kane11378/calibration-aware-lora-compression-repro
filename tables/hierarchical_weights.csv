@@ -1,0 +1,12 @@
+backbone,task,seed,w,c,role,inputs,origin
+DeBERTa,sst2,61,0.4989274598112704,0.3074862853963132,calibration,512,frozen_development_hierarchical_estimates.csv
+DeBERTa,sst2,73,0.40516574312448084,0.28728215233717846,calibration,512,frozen_development_hierarchical_estimates.csv
+DeBERTa,qnli,101,0.016279853318884263,0.0070832182781589426,calibration,512,frozen_development_hierarchical_estimates.csv
+DeBERTa,qnli,137,0.08893903243574397,0.03411559728734026,calibration,512,frozen_development_hierarchical_estimates.csv
+DeBERTa,qnli,211,0.12403220905836021,0.029478687414495552,calibration,512,frozen_development_hierarchical_estimates.csv
+DeBERTa,boolq,307,0.38353909821884724,0.22050289845305993,calibration,512,frozen_boolq_deberta_hierarchical_estimates.csv
+DeBERTa,boolq,401,0.3536988445271153,0.16057425258719038,calibration,512,frozen_boolq_deberta_hierarchical_estimates.csv
+DeBERTa,boolq,503,0.6581105443697622,0.5037377657113093,calibration,512,frozen_boolq_deberta_hierarchical_estimates.csv
+RoBERTa,boolq,607,0.9999999987120025,0.9999999285812329,calibration,512,frozen_boolq_roberta_raw_validation_metrics.csv; recorded calibration-frozen weights reused across ranks
+RoBERTa,boolq,701,0.5236330842234782,0.4464234180855675,calibration,512,frozen_boolq_roberta_raw_validation_metrics.csv; recorded calibration-frozen weights reused across ranks
+RoBERTa,boolq,809,0.02412159478794862,0.02412159478794862,calibration,512,frozen_boolq_roberta_raw_validation_metrics.csv; recorded calibration-frozen weights reused across ranks

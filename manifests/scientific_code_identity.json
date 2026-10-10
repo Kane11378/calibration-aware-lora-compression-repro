@@ -1,0 +1,20 @@
+{
+  "members": {
+    "code/experiments/constrained_compensation_control_01/solver.py": {
+      "bytes": 19813,
+      "sha256": "788d13a50b1cb8febba5cb34726b0ce00617dd6a52ca441c00c20ab39d87ca60"
+    },
+    "code/experiments/global_fisher_shrinkage_ablation_01/mathematics.py": {
+      "bytes": 5499,
+      "sha256": "93e8fafc252f6b0f530cd6948df0fc91ac96bc71c0eacc3fb611e270e89c423c"
+    },
+    "code/experiments/hierarchical_fisher_shrinkage_01/shrinkage.py": {
+      "bytes": 14413,
+      "sha256": "91e12a970cc592c09f5765e68361c157248715ddcd9b350411f1b1955fde8a1c"
+    },
+    "code/experiments/structured_fisher_shrinkage_01/mathematics.py": {
+      "bytes": 18845,
+      "sha256": "81f8e472ef0ec9fa544de3871c2b54e959005ed855fed5b4cabfc0ff6a29f416"
+    }
+  }
+}

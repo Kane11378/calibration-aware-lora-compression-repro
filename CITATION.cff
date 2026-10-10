@@ -1,0 +1,12 @@
+cff-version: "1.2.0"
+message: "Please cite Kang Wang and version 1.0.1 when using these reproducibility materials."
+title: "Beyond Rank: Calibration-Aware Dependency Control for Post-Training LoRA Compression"
+type: software
+abstract: "Version 1.0.1 reproducibility materials accompanying Beyond Rank: Calibration-Aware Dependency Control for Post-Training LoRA Compression. Kang Wang is the sole author. Stored results include adverse and inconclusive comparisons. Standard-library static verification authenticates membership, hashes and structures without importing scientific code or recomputing experiments. The package includes the four-file H1/S1/G1/solver mathematical implementation, but omits upstream models, benchmark text and labels, trained adapters, Jacobians and endpoint execution assets required to repeat experiments. The article, Supplement and submission materials are excluded. Project-authored Python code is MIT licensed; project-authored results, data and documentation are CC BY 4.0 under the per-file allocation in LICENSE and manifests/license_scope.json. Third-party rights and exceptions remain in force."
+authors:
+  - family-names: "Wang"
+    given-names: "Kang"
+    affiliation: "College of Finance and Economics, Taiyuan University of Technology, Taiyuan 030024, Shanxi, China"
+    email: "Kane.97022@gmail.com"
+    orcid: "https://orcid.org/0009-0006-7727-1214"
+version: "1.0.1"

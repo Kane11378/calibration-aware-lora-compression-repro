@@ -1,0 +1,74 @@
+{
+  "CONTROLS": [
+    "M0",
+    "C1",
+    "S1",
+    "C2"
+  ],
+  "HELDOUT_ROLE": {
+    "qnli": "validation",
+    "sst2": "tuning"
+  },
+  "METHODS": [
+    "M0",
+    "C1",
+    "S1",
+    "H1",
+    "C2"
+  ],
+  "RANKS": [
+    8,
+    4,
+    2
+  ],
+  "SOURCES": [
+    [
+      "sst2",
+      61
+    ],
+    [
+      "sst2",
+      73
+    ],
+    [
+      "qnli",
+      101
+    ],
+    [
+      "qnli",
+      137
+    ],
+    [
+      "qnli",
+      211
+    ]
+  ],
+  "VIEWS": [
+    "raw",
+    "calibrated"
+  ],
+  "algebra_dtype": "float64",
+  "constraint": "nonnegative",
+  "crossfit_folds": 4,
+  "crossfit_held_rows": 128,
+  "crossfit_permutation_seed": 20261005,
+  "crossfit_train_rows": 384,
+  "estimator_role": "calibration",
+  "estimator_rows": 512,
+  "eval_autocast": "bfloat16",
+  "eval_batch_size": 64,
+  "jacobian_collections": 0,
+  "lora_alpha": 16,
+  "max_length_by_task": {
+    "qnli": 512,
+    "sst2": 128
+  },
+  "parameter_dtype": "float32",
+  "qnli_validation_scope": "already-inspected post-outcome development",
+  "ridge": "exact archived source/rank absolute ridge",
+  "single_layer_assay_used": false,
+  "source_rank": 32,
+  "source_trainings": 0,
+  "sst2_official_validation_used": false,
+  "task_gradient_used": false
+}

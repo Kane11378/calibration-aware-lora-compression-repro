@@ -1,0 +1,73 @@
+{
+  "derived_plotting_csv": {
+    "panel_b_display_means.csv": {
+      "rows": 96,
+      "rule": "arithmetic mean of the three stored rank-specific trajectory means within source/N/method",
+      "sha256": "dbc6f3e1b5c2a67ef353ec7e0124733fb2de065f5c941089da21f72fef45bde4"
+    },
+    "panel_b_display_trajectories.csv": {
+      "rows": 384,
+      "rule": "arithmetic mean of the three stored rank-specific normalized distances within source/N/trajectory/method",
+      "sha256": "3cb8bd702bb7cc448a62dd9a6cd4d38131d31adcbd6092f8f38f38a2155efb5e"
+    }
+  },
+  "dimensions_inches": [
+    6.8,
+    4.8
+  ],
+  "embedded_fonts": {
+    "Reader": {
+      "font_file": "arial.ttf",
+      "font_source_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    "ReaderBold": {
+      "font_file": "arialbd.ttf",
+      "font_source_sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  },
+  "minimum_font_points": 7.5,
+  "source_mapping": {
+    "panel_a_individual.csv": {
+      "copied_sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8",
+      "copy_is_byte_identical": true,
+      "rows": 176,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/figures/dependency_weight_source_data.csv",
+      "source_sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8"
+    },
+    "panel_a_summary.csv": {
+      "copied_sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720",
+      "copy_is_byte_identical": true,
+      "rows": 44,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/weight_stability.csv",
+      "source_sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720"
+    },
+    "panel_b_individual_by_rank.csv": {
+      "copied_sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40",
+      "copy_is_byte_identical": true,
+      "rows": 1152,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/coefficient_stability_complete.csv",
+      "source_sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40"
+    },
+    "panel_b_summary_by_rank.csv": {
+      "copied_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e",
+      "copy_is_byte_identical": true,
+      "rows": 288,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/coefficient_stability_summary.csv",
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "panel_c_individual.csv": {
+      "copied_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab",
+      "copy_is_byte_identical": true,
+      "rows": 96,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/source_equal_rank_contrasts.csv",
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "panel_c_summary.csv": {
+      "copied_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea",
+      "copy_is_byte_identical": true,
+      "rows": 24,
+      "source_file": "results/finite_calibration_dependency_support_01/guard_amendment_01/analysis/contrast_stability.csv",
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    }
+  }
+}

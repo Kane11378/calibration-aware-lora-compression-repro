@@ -1,0 +1,851 @@
+{
+  "members": {
+    "AI_USE.md": {
+      "source_sha256": "5bd8005741d3f7be154c6bd3d668b3150bda1182bf94d3aeb6ec5b853fd4b65c"
+    },
+    "CITATION.cff": {
+      "source_sha256": "8ba7a419b2fed94090e56f92c7ef3520a8a7b33b379dafafbd234732de8c029c"
+    },
+    "LICENSE": {
+      "source_sha256": "a285b3d34b197e7d4543958dc6316c5bea00e2a576e5a6266ee04ff5dda28746"
+    },
+    "LICENSE-CC-BY-4.0.txt": {
+      "source_sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    "LICENSE-MIT.txt": {
+      "source_sha256": "5264422e6e3f0ff0f73372c72cb2d9a23216ae691e6451d96fd4dfaef5c17ccd"
+    },
+    "README.md": {
+      "source_sha256": "da4e65ff0d84985e95d9ac80698dc5e54c38c7c1c461f9be82abd2c1f00652f0"
+    },
+    "RELEASE_METADATA.md": {
+      "source_sha256": null
+    },
+    "REPRODUCE.md": {
+      "source_sha256": "fb237d4cf0eaaade8a71f4e9e0078a4a8031125e27b823eaed02f52fb6122c96"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "source_sha256": "e36126984d5f0ac5bf916c1aae9818c673ff2588fd97be170a946e9a0125fe82"
+    },
+    "VERSION": {
+      "source_sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    "code/README.md": {
+      "source_sha256": null
+    },
+    "code/experiments/constrained_compensation_control_01/solver.py": {
+      "source_sha256": "788d13a50b1cb8febba5cb34726b0ce00617dd6a52ca441c00c20ab39d87ca60"
+    },
+    "code/experiments/global_fisher_shrinkage_ablation_01/mathematics.py": {
+      "source_sha256": "93e8fafc252f6b0f530cd6948df0fc91ac96bc71c0eacc3fb611e270e89c423c"
+    },
+    "code/experiments/hierarchical_fisher_shrinkage_01/shrinkage.py": {
+      "source_sha256": "91e12a970cc592c09f5765e68361c157248715ddcd9b350411f1b1955fde8a1c"
+    },
+    "code/experiments/structured_fisher_shrinkage_01/mathematics.py": {
+      "source_sha256": "81f8e472ef0ec9fa544de3871c2b54e959005ed855fed5b4cabfc0ff6a29f416"
+    },
+    "code/verify_release_static.py": {
+      "source_sha256": "c61fb57757f72d435d845bb702207f3096532aca46d31827019245be7df245e0"
+    },
+    "configs/boolq_deberta.json": {
+      "source_sha256": "cd4c0ebe9d39c1c5ceaf8c2ee96d9c393dbac45bf128f54f1b8595af510c3abd"
+    },
+    "configs/boolq_roberta.json": {
+      "source_sha256": "5c067e38ff4e2b36920bab8cdb30c8d7d728684cfc7b14f755f7777ed71c00a2"
+    },
+    "configs/external_comparator_panel.json": {
+      "source_sha256": "4e507f67280a0b9bd5fbbe2a73a49caa86c2c13767e97b51504bfe3e752cb314"
+    },
+    "configs/finite_calibration/config.json": {
+      "source_sha256": "b9e183a2dc96416faed5ceacf94ae99ee1564ae3ac06516ac47bbe51653c0de5"
+    },
+    "configs/finite_calibration/subset_trajectories.json": {
+      "source_sha256": "d2d2b9fb86e151954616e5d022081b8608c299f0f7294e060e8f1e42d3ab193b"
+    },
+    "configs/hierarchical_fisher_shrinkage.json": {
+      "source_sha256": "535611ac6802b3ba50e59a180bc1ddb92b86a691adeccb15c8d543f54d4978d8"
+    },
+    "data_or_data_access/README.md": {
+      "source_sha256": "fcdcb9c33cbd6f38510056d5790b0228b4dd9c4b270f9feb9e43750ba784d68f"
+    },
+    "data_or_data_access/boolq_deberta_roles.json": {
+      "source_sha256": "fae182c5c7bc399e7585673f792d519eeeab27dab1661a3f6f72e3453ca891b0"
+    },
+    "data_or_data_access/boolq_deberta_validation_roles.json": {
+      "source_sha256": "e4530b2af8272956561f71508912ac5d3c5895307e24f5fb5e90c0be54714ad7"
+    },
+    "data_or_data_access/boolq_roberta_roles.json": {
+      "source_sha256": "c5307419ba0b2e7e01bc6600864658923fbcac7ac2341568e6f1e9a8a2f4e711"
+    },
+    "data_or_data_access/boolq_roberta_validation_roles.json": {
+      "source_sha256": "e465d8583310a574d7ea1dcb8ce803684a4ee0360a7ede8260b1314ea84f1c3e"
+    },
+    "data_or_data_access/development_qnli_roles.json": {
+      "source_sha256": "4cfe7d922d8cc24b8b8bc61ab6664e72dc8f670f15062f23768a818c58650177"
+    },
+    "data_or_data_access/development_sst2_roles.json": {
+      "source_sha256": "a9b17f0bdf382d8102f6158064aec71f7aafcc9fae5a042cf5c3a313ed31c760"
+    },
+    "data_or_data_access/finite_calibration_source_identities.json": {
+      "source_sha256": "16e6ad5f6847ae4048e8878130bfe9fef02ed5a69cc269ccf1dcff48aae2cd9b"
+    },
+    "environment/README.md": {
+      "source_sha256": "ddb3dcdd30154153640a4da6b6a04fba474d62ec895f095077bade299619bc6d"
+    },
+    "environment/finite_calibration_recorded_versions.json": {
+      "source_sha256": "f44996808804c86ff0207114f659c3b511c4cd3b927fe3d7d3d360fa90f87359"
+    },
+    "environment/recorded_environment.json": {
+      "source_sha256": "2fe64874db948dbb1006c7c561a057796aa9da7880e72aa020da74ea11b3ab27"
+    },
+    "environment/requirements-scientific.txt": {
+      "source_sha256": "159067753137eb7670822c670df8251ec9767dae18e85760555d61e1c347fe3b"
+    },
+    "figure_source_data/README.md": {
+      "source_sha256": "3f7884cf4167085336d1a38e4c21a493216426835d0856bb09fd2c1a86af9b08"
+    },
+    "figure_source_data/all_source_control_effects.csv": {
+      "source_sha256": "51e577487443dc793ebfc11e003eddd1c414ec9df6451ce546c93756adafed7a"
+    },
+    "figure_source_data/external_counts.csv": {
+      "source_sha256": "18248562d1f908631126f3f75f092862dab2d28cf693586f9b68597ce5262cf9"
+    },
+    "figure_source_data/external_pairings.csv": {
+      "source_sha256": "b9a281878aeb00d1cc896b88f09cda7f28ab44005c2114ef46b928908bdca64e"
+    },
+    "figure_source_data/figure1_cached_diagnostic.csv": {
+      "source_sha256": "a85740a9af1ffdcb1fd2ad3d04ac404930ffda4c6e1d6599c913aec5089f2e44"
+    },
+    "figure_source_data/finite_calibration/full_figures/coefficient_stability_summary.csv": {
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "figure_source_data/finite_calibration/full_figures/contrast_stability.csv": {
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    },
+    "figure_source_data/finite_calibration/full_figures/dependency_weight_source_data.csv": {
+      "source_sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8"
+    },
+    "figure_source_data/finite_calibration/full_figures/existing_source_regime_source_data.csv": {
+      "source_sha256": "84e7b7b0b5842c856d45a000806ffb3e294624ecb1c76e6119380fdd0effdd4d"
+    },
+    "figure_source_data/finite_calibration/full_figures/fidelity_stability.csv": {
+      "source_sha256": "b1ac645d931e0ce6fbd54ff381953747dc0c8b57f7a7e47aafc22b1b851cb3e9"
+    },
+    "figure_source_data/finite_calibration/full_figures/source_equal_rank_contrasts.csv": {
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "figure_source_data/finite_calibration/main_figure/caption.txt": {
+      "source_sha256": "7ca246579490342e6b30167b35b999b2eb911351405e448800477e24b4323996"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_a_individual.csv": {
+      "source_sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_a_summary.csv": {
+      "source_sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_b_display_means.csv": {
+      "source_sha256": "dbc6f3e1b5c2a67ef353ec7e0124733fb2de065f5c941089da21f72fef45bde4"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_b_display_trajectories.csv": {
+      "source_sha256": "3cb8bd702bb7cc448a62dd9a6cd4d38131d31adcbd6092f8f38f38a2155efb5e"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_b_individual_by_rank.csv": {
+      "source_sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_b_summary_by_rank.csv": {
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_c_individual.csv": {
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "figure_source_data/finite_calibration/main_figure/panel_c_summary.csv": {
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    },
+    "figure_source_data/finite_calibration/main_figure/source_values.json": {
+      "source_sha256": "0cc0a4cb40ac2822c6fb3bc12d2fe156c51fc1960c2944d31aa155f35900647a"
+    },
+    "figure_source_data/frozen_inputs/deberta/paired_uncertainty.csv": {
+      "source_sha256": "4dc30af10f3e0275d35b8c91b05fe8cb7ff0a2b2c349f09983b50da7743d6360"
+    },
+    "figure_source_data/frozen_inputs/deberta/primary_confirmation.csv": {
+      "source_sha256": "067caa9f63f8abc17ac7c30307e5689ce0a311725f4e1e77303b4940d335a6bd"
+    },
+    "figure_source_data/frozen_inputs/deberta/source_quality.csv": {
+      "source_sha256": "605efa008b0ef5abfd18b136258673d600d79efb3b44e882fb75910a72e0cd94"
+    },
+    "figure_source_data/frozen_inputs/external/paired_uncertainty.csv": {
+      "source_sha256": "550dc4062325acf0cb508684f7c3b4934680a879559c1412bd730be24551d030"
+    },
+    "figure_source_data/frozen_inputs/roberta/paired_uncertainty.csv": {
+      "source_sha256": "b5ef1488b73c713aa4af7c7b25428a3bff9a3cc5a3fcebe9e41c8d949af7891d"
+    },
+    "figure_source_data/frozen_inputs/roberta/primary_confirmation.csv": {
+      "source_sha256": "5fe2f59296bc87265a0aa8c631c7dd6fb7ea8de45bda214d113dbea68e98b54d"
+    },
+    "figure_source_data/frozen_inputs/roberta/source_quality.csv": {
+      "source_sha256": "3ca522e23e5d03d039a17441eed060887a841c242d8fdd18e3428a4f42ca5b89"
+    },
+    "figure_source_data/g1/coefficient_stability_rank_equal_trajectories.csv": {
+      "source_sha256": "0de8478bfa4d338e5c6060c1fc06aeb9f79908a6e2988813ad06bd461d77967a"
+    },
+    "figure_source_data/g1/hierarchy_ablation_N512.svg": {
+      "source_sha256": "3f9d1c8bf3efa7e65363b9de9fbfff67605e28e6a886e6a78079410043511c55"
+    },
+    "figure_source_data/g1/n512_primary_H1_minus_G1.csv": {
+      "source_sha256": "d92581def9d43686a17c597ccb441a487e4a6e6ed8df79e9a15a0d14694ee461"
+    },
+    "figure_source_data/g1/reduced_rank_equal_trajectories.csv": {
+      "source_sha256": "bf6d77bdf6cd2be435811d982b2f9e362e23e13ca9885188a7c978ff3116dad5"
+    },
+    "figure_source_data/g1/reduced_source_N_summary.csv": {
+      "source_sha256": "9f4ba88e17f52ce28db26cbf4320cf9ff1aade82285bf653198033f79c16989a"
+    },
+    "figure_source_data/primary_effects.csv": {
+      "source_sha256": "1da3bed6bdae1036e4b612cb279bb79f72f30f107db2c45fc9f9a054b23132d8"
+    },
+    "figure_source_data/source_quality.csv": {
+      "source_sha256": "39a80817be741f44ced37da10b581baaab2714d4ea3388d694bbf04aa6c6b914"
+    },
+    "figure_source_data/task_tradeoff.csv": {
+      "source_sha256": "d97ba8ca49daf93483f5b1f02007d9ecd7cdcacdf37dd1daf2826148bf2e879c"
+    },
+    "figure_source_data/value_provenance.csv": {
+      "source_sha256": "e40ee7a2c6c72ef9e5af82f19a5e4e0c5651e3ef7d1c02c6cf230d6e3a3db867"
+    },
+    "figures/README.md": {
+      "source_sha256": null
+    },
+    "figures/dependency_complexity.pdf": {
+      "source_sha256": "565377dc2886dde39411f15a5f08bae1e9402d9db322c7826f654e511e147db1"
+    },
+    "figures/finite_calibration.pdf": {
+      "source_sha256": "17c4b8c2b86e43d40dfa7c1a40b9fea093469644c6e3479dc1f225a5cb23d6ee"
+    },
+    "figures/hierarchy_ablation.pdf": {
+      "source_sha256": "ad911f2cb461639ac65f9a831f0a14a99d84652d13cc4738c129444012c6a51c"
+    },
+    "figures/supporting_fidelity.pdf": {
+      "source_sha256": "6f11af92e55ce17e55f80c434af567210f288c41f496339f3763200f9d7e66a4"
+    },
+    "figures/task_tradeoff.pdf": {
+      "source_sha256": "0c3c9769611f22678ff1523276d5d3975ce88f25eeaa74a79dfd26ec9aaf416a"
+    },
+    "manifests/data_aliases.json": {
+      "source_sha256": null
+    },
+    "manifests/publication_metadata.json": {
+      "source_sha256": "beb6a290165c75f69aadb2e4c494cd777ec0e7c1a24c9fb7dee36e853d3a3777"
+    },
+    "manifests/publication_metadata_schema.json": {
+      "source_sha256": null
+    },
+    "manifests/scientific_code_identity.json": {
+      "source_sha256": "0d4430ab39108cab97fe587155024def697911adf34a8abcb56faf09700f811d"
+    },
+    "protocols/finite_calibration_design.md": {
+      "source_sha256": "97eef85df2a1b33b65ba242c40de6fb6c0d7c9753afbe25419c61391190ba999"
+    },
+    "protocols/g1_hierarchy_ablation.md": {
+      "source_sha256": "88a2a6d25cd9d3846045dfa3cd7e98327da42a98b2b45d3675b7d2d3cde2db9f"
+    },
+    "protocols/h1_method_lock.md": {
+      "source_sha256": "fb7e44de25692e6ea434d97d1deb4019134d7e782aa0012cbcfd901f4af2467a"
+    },
+    "results/finite_calibration/analysis/coefficient_stability_complete.csv": {
+      "source_sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40"
+    },
+    "results/finite_calibration/analysis/coefficient_stability_summary.csv": {
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "results/finite_calibration/analysis/contrast_stability.csv": {
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    },
+    "results/finite_calibration/analysis/fidelity_stability.csv": {
+      "source_sha256": "b1ac645d931e0ce6fbd54ff381953747dc0c8b57f7a7e47aafc22b1b851cb3e9"
+    },
+    "results/finite_calibration/analysis/figures/coefficient_stability_summary.csv": {
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "results/finite_calibration/analysis/figures/contrast_stability.csv": {
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    },
+    "results/finite_calibration/analysis/figures/dependency_weight_source_data.csv": {
+      "source_sha256": "71393d160f322ea4066f009ad9bb922432b5b9c8523cabe9469a9368d69e38b8"
+    },
+    "results/finite_calibration/analysis/figures/existing_source_regime_source_data.csv": {
+      "source_sha256": "84e7b7b0b5842c856d45a000806ffb3e294624ecb1c76e6119380fdd0effdd4d"
+    },
+    "results/finite_calibration/analysis/figures/fidelity_stability.csv": {
+      "source_sha256": "b1ac645d931e0ce6fbd54ff381953747dc0c8b57f7a7e47aafc22b1b851cb3e9"
+    },
+    "results/finite_calibration/analysis/figures/source_equal_rank_contrasts.csv": {
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "results/finite_calibration/analysis/rank_fidelity_stability.csv": {
+      "source_sha256": "bd1b00738569127634f7295c20193472013745c340f78343af3a9d0fc082a74c"
+    },
+    "results/finite_calibration/analysis/rank_raw_kl_display.csv": {
+      "source_sha256": "1849d76b58cd1e9d747dd0746ee606e01ec2c0a415e1f2f619154e36f5312798"
+    },
+    "results/finite_calibration/analysis/raw_kl_complete.csv": {
+      "source_sha256": "119b59d12de557ec3ce589dab02bb7ce62b342d9827e04a0a6fcc08067f95796"
+    },
+    "results/finite_calibration/analysis/raw_kl_trajectory_ordering.csv": {
+      "source_sha256": "c912fb174c1987ee8a800857ea85a1a684a1795b9f8ba12cd8af810e56faa8a8"
+    },
+    "results/finite_calibration/analysis/source_equal_rank_contrasts.csv": {
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "results/finite_calibration/analysis/source_equal_rank_raw_kl.csv": {
+      "source_sha256": "a20a5a07606dc16c2f7038f4ce1ba35918f3348eddb0282541a4a0b6bc80de54"
+    },
+    "results/finite_calibration/analysis/weight_stability.csv": {
+      "source_sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720"
+    },
+    "results/finite_calibration/analysis/weight_trajectory_ordering.csv": {
+      "source_sha256": "117f7427360866a82c9cf27b63f54995eb4be91a6f5fcecb130afb81aa5f0dd4"
+    },
+    "results/finite_calibration/coefficient_stability.csv": {
+      "source_sha256": "23f4af9cb1f52a245e1930dc0e0476a2e1751a3b78b52625de6a4d1025587f3a"
+    },
+    "results/finite_calibration/estimator_scaling.csv": {
+      "source_sha256": "a9bba8664814b84c38a58c604097318ed88ff9e91acdc2b43441496d854c4a27"
+    },
+    "results/finite_calibration/raw_kl.csv": {
+      "source_sha256": "ee3e60a6dffd05da782ae06008bbbb4939432ca94363e5f805a7d7ef977533ca"
+    },
+    "results/finite_calibration/regime/regime.csv": {
+      "source_sha256": "6af89bba2eecc004bf883064c444c04fb4ffa4fd54ccc271b58dfabd76880a4e"
+    },
+    "results/finite_calibration/regime/regime_rank_raw_kl.csv": {
+      "source_sha256": "2e7ab8cb4f609339fdc11c2bf0be83a6744c5c72f96acda392aafe71d5364518"
+    },
+    "results/frozen_boolq_deberta_calibrated_calibration_metrics.csv": {
+      "source_sha256": "fea44ee62d191d3e87f3ae879f34977fc2a0542d6488804e87b314d64d912236"
+    },
+    "results/frozen_boolq_deberta_calibrated_validation_metrics.csv": {
+      "source_sha256": "a265b1b9a254437002078594ad55a74f3884239001d86a70dc2b46251752b36f"
+    },
+    "results/frozen_boolq_deberta_hierarchical_estimates.csv": {
+      "source_sha256": "f28ec451fbfd7f13f6e8c8da67c08070b594d13842a614c6f72accd200714bd3"
+    },
+    "results/frozen_boolq_deberta_individual_rank_primary.csv": {
+      "source_sha256": "d50f7739446ebc0cb731a7e443023a56b5faa330707412c86a5d03367c095cf5"
+    },
+    "results/frozen_boolq_deberta_nominal_numerical_ranks.csv": {
+      "source_sha256": "54d681f1433397b7435d4a42ef46287074f1a39601bc2a7dcd5b4c1776acf366"
+    },
+    "results/frozen_boolq_deberta_paired_uncertainty.csv": {
+      "source_sha256": "4dc30af10f3e0275d35b8c91b05fe8cb7ff0a2b2c349f09983b50da7743d6360"
+    },
+    "results/frozen_boolq_deberta_primary_confirmation.csv": {
+      "source_sha256": "067caa9f63f8abc17ac7c30307e5689ce0a311725f4e1e77303b4940d335a6bd"
+    },
+    "results/frozen_boolq_deberta_raw_calibration_metrics.csv": {
+      "source_sha256": "559f866b04e2072c9d64886464e312ad879a41b8f501abc0c22f0687969ab441"
+    },
+    "results/frozen_boolq_deberta_raw_validation_metrics.csv": {
+      "source_sha256": "327eab65f97eccb403edbd4b3e4b98a8099ef6e1a6a89df6d6e89fc0d6a16120"
+    },
+    "results/frozen_boolq_deberta_reconstruction_checks.csv": {
+      "source_sha256": "2a6c291f7cf8afb0bf7bf521a905441eeb5976f5b38f83aea0fe749b9ce11834"
+    },
+    "results/frozen_boolq_deberta_solver_certificates.csv": {
+      "source_sha256": "a4146fe33bb2b0a10ece9ac60db46c27ba829606d1555a30a66dcd89795783b7"
+    },
+    "results/frozen_boolq_deberta_source_level_metrics.csv": {
+      "source_sha256": "573114a14361d974baeb1e950fa7a6840d692f1b11d1a87760de2ddd003f9089"
+    },
+    "results/frozen_boolq_deberta_source_quality.csv": {
+      "source_sha256": "605efa008b0ef5abfd18b136258673d600d79efb3b44e882fb75910a72e0cd94"
+    },
+    "results/frozen_boolq_deberta_statistical_metrics.csv": {
+      "source_sha256": "a6bcf853da31181fe1d5a4d41c131bff056a4ebe734df558ccb8a0599f8d2384"
+    },
+    "results/frozen_boolq_roberta_calibrated_calibration_metrics.csv": {
+      "source_sha256": "39207fc4032d4d26e72ad552da6b09c98eedbc115cfb44d2651c958859b5ccb3"
+    },
+    "results/frozen_boolq_roberta_calibrated_validation_metrics.csv": {
+      "source_sha256": "920da23b47951ad6222f45d14c7f2439a7dac1b99382605c773c62dd35ac73a2"
+    },
+    "results/frozen_boolq_roberta_cost_ledger.csv": {
+      "source_sha256": "61ccb06765bdcc540df7d150f70fc3cb2c01fb678fa692053a2b9b4638ac2851"
+    },
+    "results/frozen_boolq_roberta_endpoint_costs.csv": {
+      "source_sha256": "b13cd5918fc0bb11506736ed375a3ee3291d85cc84846df1bf80949f6d5a33e1"
+    },
+    "results/frozen_boolq_roberta_individual_rank_primary.csv": {
+      "source_sha256": "96df5fce18590f17041dd17f3fc580d95786a94ec4603053bb1a15d0fb0f8d04"
+    },
+    "results/frozen_boolq_roberta_paired_uncertainty.csv": {
+      "source_sha256": "b5ef1488b73c713aa4af7c7b25428a3bff9a3cc5a3fcebe9e41c8d949af7891d"
+    },
+    "results/frozen_boolq_roberta_primary_confirmation.csv": {
+      "source_sha256": "5fe2f59296bc87265a0aa8c631c7dd6fb7ea8de45bda214d113dbea68e98b54d"
+    },
+    "results/frozen_boolq_roberta_raw_calibration_metrics.csv": {
+      "source_sha256": "2888b310be23a92dd76f5402fb0e6d802049dea1b81c920eef85396dfb0acbeb"
+    },
+    "results/frozen_boolq_roberta_raw_validation_metrics.csv": {
+      "source_sha256": "743238a5dcc9f5264f8f85298630b9a6e59ad4ac70ca12a0bf9c0ed7ec151a18"
+    },
+    "results/frozen_boolq_roberta_source_level_metrics.csv": {
+      "source_sha256": "7ebfe3ad23196eb486ac6939cbd50e5e908518c17cc6b2819f159058d851d99f"
+    },
+    "results/frozen_boolq_roberta_source_quality.csv": {
+      "source_sha256": "3ca522e23e5d03d039a17441eed060887a841c242d8fdd18e3428a4f42ca5b89"
+    },
+    "results/frozen_boolq_roberta_statistical_metrics.csv": {
+      "source_sha256": "fffc03acf613521b5bb7dbdeab62e5f09ae4294f0d584c4a6f6da73b8b4e15bc"
+    },
+    "results/frozen_development_calibrated_calibration_metrics.csv": {
+      "source_sha256": "23417a3df6a0b6dee27526ab7776798e65fc9ae1208801def8197e7efffab5c4"
+    },
+    "results/frozen_development_calibrated_heldout_metrics.csv": {
+      "source_sha256": "b07acb35857ad35ef8830650244080f21983cc75d7d684a26ed48e9837a8bab1"
+    },
+    "results/frozen_development_crossfit_pooled.csv": {
+      "source_sha256": "0811ab2c9e4b7e1a53bc4cf929bbabb52706fe6a5f74398b6663d9bf1f9570b8"
+    },
+    "results/frozen_development_crossfit_quadratic.csv": {
+      "source_sha256": "8a0291edc3c72c6e4ff7bb09f1674407cbb01603ebde023e912ea44a2320fac7"
+    },
+    "results/frozen_development_development_decision.csv": {
+      "source_sha256": "a14557295ee4e2432583b05b70245263e123d53542bdc8fd0115e929c564cf99"
+    },
+    "results/frozen_development_hierarchical_estimates.csv": {
+      "source_sha256": "9b34fbaf9e7a3c59fbb6447395b21769584d058b8fa66be6366ba7f059dc3e8b"
+    },
+    "results/frozen_development_independent_solver_certificates.csv": {
+      "source_sha256": "e06584f8dd7b7250bf41ff2ac60ae376c6492b396b1e225f2fe4d5564acf771f"
+    },
+    "results/frozen_development_paired_comparisons.csv": {
+      "source_sha256": "3a68db65f60b775d1b0b7e1a8504324b185cf82a017ede77156e577f7774e3f4"
+    },
+    "results/frozen_development_per_example_index.csv": {
+      "source_sha256": "3016fe5e21106554c42d52417ace79fcfab8921d81bedcc32334bcfab45ef4d9"
+    },
+    "results/frozen_development_raw_calibration_metrics.csv": {
+      "source_sha256": "52bc7806f28ed0f9e09ef134cbf1dcf8da99a2fe2e232f40b37c4155048c64be"
+    },
+    "results/frozen_development_raw_heldout_metrics.csv": {
+      "source_sha256": "0d141f3ce7672997e727e89af190176a247e70866de59f8d6cd57e6c65549d41"
+    },
+    "results/frozen_development_reconstruction_checks.csv": {
+      "source_sha256": "433b56bbda8bee33afc4b21818d8f1f88b38ae008fc97fcdaf8e59ec17a11222"
+    },
+    "results/frozen_development_solver_comparison.csv": {
+      "source_sha256": "a2d734d78573d9354b018c7edac55c002758612084818ca46aa8c6887c6ead2e"
+    },
+    "results/frozen_development_source_metrics.csv": {
+      "source_sha256": "0976ffd4a7832e737d1ef21c9f9a1c2344c4a8808749cc494d2024d7e607e83a"
+    },
+    "results/frozen_external_calibrated_calibration_metrics.csv": {
+      "source_sha256": "9c738ba3d93e3d9d912e466df854dc24d88966861e3ffd1304a8d088122228bd"
+    },
+    "results/frozen_external_calibrated_endpoint_metrics.csv": {
+      "source_sha256": "e28b9ec6ee7bf4d2094e2f5695c4d002862c2239600e5f5878a1e22b8a438e66"
+    },
+    "results/frozen_external_calibration_metrics.csv": {
+      "source_sha256": "98b821d237e6f75627d8c8ba050382788f6e54454f0c8bb990a4626e88abbf00"
+    },
+    "results/frozen_external_cost_ledger.csv": {
+      "source_sha256": "374f630e525f7e25b60d1bbd02700b1be06f837e14637383e2d6385f89b3232e"
+    },
+    "results/frozen_external_endpoint_costs.csv": {
+      "source_sha256": "3b25fbf8c27ed4d4553b773ce0c3f80d634c4e8b048520b71bf70c5399f52f77"
+    },
+    "results/frozen_external_endpoint_metrics.csv": {
+      "source_sha256": "31fe9e11c0d0dedf0c22fb81bf8246ca1b71155e3a7087bffc2323245cbad711"
+    },
+    "results/frozen_external_large_tensor_index.csv": {
+      "source_sha256": "5e4f076350cfda338e6a39d2109903d9b983ea20c56c6d4b08ba27013b96c8ce"
+    },
+    "results/frozen_external_paired_uncertainty.csv": {
+      "source_sha256": "550dc4062325acf0cb508684f7c3b4934680a879559c1412bd730be24551d030"
+    },
+    "results/frozen_external_preparation_costs.csv": {
+      "source_sha256": "f53553f29ce8987e221cc48c3ef81a29fdc386c77fd7a1fe3b97d11f77311874"
+    },
+    "results/frozen_external_source_level_metrics.csv": {
+      "source_sha256": "a8403b1559f6c721827983f98847ede6a2f6375685a981af173dc06703c0b3d9"
+    },
+    "results/frozen_external_source_quality.csv": {
+      "source_sha256": "7b78bb48f44a65720e0e66371025f2ce69a0cca1dd05d1a3200597c87b63a21a"
+    },
+    "results/frozen_external_statistical_metrics.csv": {
+      "source_sha256": "d4deb1158d269916fe01661c804105ecd4cfe02233a0fb0661ba4b7791436fda"
+    },
+    "results/g1/analysis/coefficient_stability_full.csv": {
+      "source_sha256": "e6e0c1e578e5eb6cddfdb61fa39239b786f8fb7f4b914e283fab507bcea357f9"
+    },
+    "results/g1/analysis/coefficient_stability_rank_equal_trajectories.csv": {
+      "source_sha256": "0de8478bfa4d338e5c6060c1fc06aeb9f79908a6e2988813ad06bd461d77967a"
+    },
+    "results/g1/analysis/coefficient_stability_source_N_summary.csv": {
+      "source_sha256": "92ea92d67ce32cb160e00468307566b6da3ac0fb66d9fd6fe8a0732f66b2acec"
+    },
+    "results/g1/analysis/figure_source_data/coefficient_stability_rank_equal_trajectories.csv": {
+      "source_sha256": "0de8478bfa4d338e5c6060c1fc06aeb9f79908a6e2988813ad06bd461d77967a"
+    },
+    "results/g1/analysis/figure_source_data/n512_primary_H1_minus_G1.csv": {
+      "source_sha256": "d92581def9d43686a17c597ccb441a487e4a6e6ed8df79e9a15a0d14694ee461"
+    },
+    "results/g1/analysis/figure_source_data/reduced_rank_equal_trajectories.csv": {
+      "source_sha256": "bf6d77bdf6cd2be435811d982b2f9e362e23e13ca9885188a7c978ff3116dad5"
+    },
+    "results/g1/analysis/figure_source_data/reduced_source_N_summary.csv": {
+      "source_sha256": "9f4ba88e17f52ce28db26cbf4320cf9ff1aade82285bf653198033f79c16989a"
+    },
+    "results/g1/analysis/n512_G1_control_contrasts.csv": {
+      "source_sha256": "558234b4f72e206661bef8b9c3f2ced8c826fe099e10986a5b9b83101df003cc"
+    },
+    "results/g1/analysis/n512_primary_H1_minus_G1.csv": {
+      "source_sha256": "d92581def9d43686a17c597ccb441a487e4a6e6ed8df79e9a15a0d14694ee461"
+    },
+    "results/g1/analysis/n512_rank_H1_minus_G1.csv": {
+      "source_sha256": "4d25fa49b7aecf1f294ce8d919bf13722a569a5529bd8c5ee59125462f761b9d"
+    },
+    "results/g1/analysis/primary_per_example/deberta_boolq_307.npz": {
+      "source_sha256": "6429754ee9918922bc8d0f5e96fcd42bbafb5f73c2ffd350671716329631489f"
+    },
+    "results/g1/analysis/primary_per_example/deberta_boolq_401.npz": {
+      "source_sha256": "d8b53899e780fe9235dd2746f7375d84295d98d7362be955cbd178248a7e77ac"
+    },
+    "results/g1/analysis/primary_per_example/deberta_boolq_503.npz": {
+      "source_sha256": "690ab49eec44afdd75630a800786f6023938208033e53b354ba2136195be8740"
+    },
+    "results/g1/analysis/primary_per_example/deberta_qnli_101.npz": {
+      "source_sha256": "7224ee3b477e294da9218b08d4d72c7eaa8c6526735d0b4b73c5b85a7233404b"
+    },
+    "results/g1/analysis/primary_per_example/deberta_qnli_137.npz": {
+      "source_sha256": "c508a51f0ed2dce0448e646c2ff20a4484ba589554bbc9c52a49e3093e548868"
+    },
+    "results/g1/analysis/primary_per_example/deberta_qnli_211.npz": {
+      "source_sha256": "8909d96617a56cd340d0a3a2613c507a1a330afdc7ffdb0a98a68de5bff3e04e"
+    },
+    "results/g1/analysis/primary_per_example/deberta_sst2_61.npz": {
+      "source_sha256": "f0c0bcec5cbc2ffae81bd1b0ae5a731b0277310fab41742e67f9d3f2ad10afd9"
+    },
+    "results/g1/analysis/primary_per_example/deberta_sst2_73.npz": {
+      "source_sha256": "25d4696909a98f5ba321efd810310f3605d87ca8113f2d54a99613e10e3e12b7"
+    },
+    "results/g1/analysis/primary_per_example/roberta_boolq_607.npz": {
+      "source_sha256": "8adcff8ad26dc1fef1e954f69647947e3299d62ba07d49ee0d98e0a5beb698ca"
+    },
+    "results/g1/analysis/primary_per_example/roberta_boolq_701.npz": {
+      "source_sha256": "6821f0a188e192b6de5ad92ee1f64c345788e952806584898554edd57d3f8047"
+    },
+    "results/g1/analysis/primary_per_example/roberta_boolq_809.npz": {
+      "source_sha256": "46bc9f34613bc3e5c35321cd5ab4a72d75caf090e6ab112ca2dadb16f40cb3a0"
+    },
+    "results/g1/analysis/reduced_rank_equal_trajectories.csv": {
+      "source_sha256": "bf6d77bdf6cd2be435811d982b2f9e362e23e13ca9885188a7c978ff3116dad5"
+    },
+    "results/g1/analysis/reduced_rank_raw_kl.csv": {
+      "source_sha256": "c471f9f937c7a3d923059069c00c6c7ec4e39683473ed1c3ec5f7ea0aa9eedc0"
+    },
+    "results/g1/analysis/reduced_source_N_summary.csv": {
+      "source_sha256": "9f4ba88e17f52ce28db26cbf4320cf9ff1aade82285bf653198033f79c16989a"
+    },
+    "results/g1/coefficient_stability.csv": {
+      "source_sha256": "ec1f9df778a505530be4b20f57aab3afb557bb64b4736fa7e1622bdae39b26be"
+    },
+    "results/g1/g_estimator_scaling.csv": {
+      "source_sha256": "4123f0d0b12ed7fb975109b76ea4ea70e5daf2c715e8490b44343918a025557b"
+    },
+    "results/g1/raw_kl.csv": {
+      "source_sha256": "702aadfe0860e54651623b10a24a7ed62e10b263731782a264c098f7367d758c"
+    },
+    "tables/finite_calibration/README.md": {
+      "source_sha256": "b5614178f61eb93da58fb9d9bb7559fb2ec096d56dd0412cb8a3eb8b59e93e0a"
+    },
+    "tables/finite_calibration/coefficient_stability_complete.csv": {
+      "source_sha256": "eef2c69fdbf19d851c4f3a42d594d3f4908a739b6a5a63cec7fb787c5e462c40"
+    },
+    "tables/finite_calibration/coefficient_stability_summary.csv": {
+      "source_sha256": "12cf86359b94f6fd039d2c190761abff67510f881bea57ee4635373ce071235e"
+    },
+    "tables/finite_calibration/contrast_stability.csv": {
+      "source_sha256": "4d90f0e5c1ec508acea6f1c088039dc4c3b05a4012dd2b6cd8d1bb9e75ef03ea"
+    },
+    "tables/finite_calibration/estimator_scaling.csv": {
+      "source_sha256": "a9bba8664814b84c38a58c604097318ed88ff9e91acdc2b43441496d854c4a27"
+    },
+    "tables/finite_calibration/fidelity_stability.csv": {
+      "source_sha256": "b1ac645d931e0ce6fbd54ff381953747dc0c8b57f7a7e47aafc22b1b851cb3e9"
+    },
+    "tables/finite_calibration/rank_fidelity_stability.csv": {
+      "source_sha256": "bd1b00738569127634f7295c20193472013745c340f78343af3a9d0fc082a74c"
+    },
+    "tables/finite_calibration/rank_raw_kl_display.csv": {
+      "source_sha256": "1849d76b58cd1e9d747dd0746ee606e01ec2c0a415e1f2f619154e36f5312798"
+    },
+    "tables/finite_calibration/raw_kl_complete.csv": {
+      "source_sha256": "119b59d12de557ec3ce589dab02bb7ce62b342d9827e04a0a6fcc08067f95796"
+    },
+    "tables/finite_calibration/raw_kl_trajectory_ordering.csv": {
+      "source_sha256": "c912fb174c1987ee8a800857ea85a1a684a1795b9f8ba12cd8af810e56faa8a8"
+    },
+    "tables/finite_calibration/regime.csv": {
+      "source_sha256": "6af89bba2eecc004bf883064c444c04fb4ffa4fd54ccc271b58dfabd76880a4e"
+    },
+    "tables/finite_calibration/regime_rank_raw_kl.csv": {
+      "source_sha256": "2e7ab8cb4f609339fdc11c2bf0be83a6744c5c72f96acda392aafe71d5364518"
+    },
+    "tables/finite_calibration/source_equal_rank_contrasts.csv": {
+      "source_sha256": "dd016df0f512b41c9527b5b9b8eec0fe3eb56826f1513380574effe313df2bab"
+    },
+    "tables/finite_calibration/source_equal_rank_raw_kl.csv": {
+      "source_sha256": "a20a5a07606dc16c2f7038f4ce1ba35918f3348eddb0282541a4a0b6bc80de54"
+    },
+    "tables/finite_calibration/weight_stability.csv": {
+      "source_sha256": "6e5f7ad7aad895026e1835877c4c702d4651ae45a8db742409d33e650f043720"
+    },
+    "tables/finite_calibration/weight_trajectory_ordering.csv": {
+      "source_sha256": "117f7427360866a82c9cf27b63f54995eb4be91a6f5fcecb130afb81aa5f0dd4"
+    },
+    "tables/frozen_boolq_deberta_calibrated_calibration_metrics.csv": {
+      "source_sha256": "fea44ee62d191d3e87f3ae879f34977fc2a0542d6488804e87b314d64d912236"
+    },
+    "tables/frozen_boolq_deberta_calibrated_validation_metrics.csv": {
+      "source_sha256": "a265b1b9a254437002078594ad55a74f3884239001d86a70dc2b46251752b36f"
+    },
+    "tables/frozen_boolq_deberta_hierarchical_estimates.csv": {
+      "source_sha256": "f28ec451fbfd7f13f6e8c8da67c08070b594d13842a614c6f72accd200714bd3"
+    },
+    "tables/frozen_boolq_deberta_individual_rank_primary.csv": {
+      "source_sha256": "d50f7739446ebc0cb731a7e443023a56b5faa330707412c86a5d03367c095cf5"
+    },
+    "tables/frozen_boolq_deberta_nominal_numerical_ranks.csv": {
+      "source_sha256": "54d681f1433397b7435d4a42ef46287074f1a39601bc2a7dcd5b4c1776acf366"
+    },
+    "tables/frozen_boolq_deberta_paired_uncertainty.csv": {
+      "source_sha256": "4dc30af10f3e0275d35b8c91b05fe8cb7ff0a2b2c349f09983b50da7743d6360"
+    },
+    "tables/frozen_boolq_deberta_primary_confirmation.csv": {
+      "source_sha256": "067caa9f63f8abc17ac7c30307e5689ce0a311725f4e1e77303b4940d335a6bd"
+    },
+    "tables/frozen_boolq_deberta_raw_calibration_metrics.csv": {
+      "source_sha256": "559f866b04e2072c9d64886464e312ad879a41b8f501abc0c22f0687969ab441"
+    },
+    "tables/frozen_boolq_deberta_raw_validation_metrics.csv": {
+      "source_sha256": "327eab65f97eccb403edbd4b3e4b98a8099ef6e1a6a89df6d6e89fc0d6a16120"
+    },
+    "tables/frozen_boolq_deberta_reconstruction_checks.csv": {
+      "source_sha256": "2a6c291f7cf8afb0bf7bf521a905441eeb5976f5b38f83aea0fe749b9ce11834"
+    },
+    "tables/frozen_boolq_deberta_solver_certificates.csv": {
+      "source_sha256": "a4146fe33bb2b0a10ece9ac60db46c27ba829606d1555a30a66dcd89795783b7"
+    },
+    "tables/frozen_boolq_deberta_source_level_metrics.csv": {
+      "source_sha256": "573114a14361d974baeb1e950fa7a6840d692f1b11d1a87760de2ddd003f9089"
+    },
+    "tables/frozen_boolq_deberta_source_quality.csv": {
+      "source_sha256": "605efa008b0ef5abfd18b136258673d600d79efb3b44e882fb75910a72e0cd94"
+    },
+    "tables/frozen_boolq_deberta_statistical_metrics.csv": {
+      "source_sha256": "a6bcf853da31181fe1d5a4d41c131bff056a4ebe734df558ccb8a0599f8d2384"
+    },
+    "tables/frozen_boolq_roberta_calibrated_calibration_metrics.csv": {
+      "source_sha256": "39207fc4032d4d26e72ad552da6b09c98eedbc115cfb44d2651c958859b5ccb3"
+    },
+    "tables/frozen_boolq_roberta_calibrated_validation_metrics.csv": {
+      "source_sha256": "920da23b47951ad6222f45d14c7f2439a7dac1b99382605c773c62dd35ac73a2"
+    },
+    "tables/frozen_boolq_roberta_cost_ledger.csv": {
+      "source_sha256": "61ccb06765bdcc540df7d150f70fc3cb2c01fb678fa692053a2b9b4638ac2851"
+    },
+    "tables/frozen_boolq_roberta_endpoint_costs.csv": {
+      "source_sha256": "b13cd5918fc0bb11506736ed375a3ee3291d85cc84846df1bf80949f6d5a33e1"
+    },
+    "tables/frozen_boolq_roberta_individual_rank_primary.csv": {
+      "source_sha256": "96df5fce18590f17041dd17f3fc580d95786a94ec4603053bb1a15d0fb0f8d04"
+    },
+    "tables/frozen_boolq_roberta_paired_uncertainty.csv": {
+      "source_sha256": "b5ef1488b73c713aa4af7c7b25428a3bff9a3cc5a3fcebe9e41c8d949af7891d"
+    },
+    "tables/frozen_boolq_roberta_primary_confirmation.csv": {
+      "source_sha256": "5fe2f59296bc87265a0aa8c631c7dd6fb7ea8de45bda214d113dbea68e98b54d"
+    },
+    "tables/frozen_boolq_roberta_raw_calibration_metrics.csv": {
+      "source_sha256": "2888b310be23a92dd76f5402fb0e6d802049dea1b81c920eef85396dfb0acbeb"
+    },
+    "tables/frozen_boolq_roberta_raw_validation_metrics.csv": {
+      "source_sha256": "743238a5dcc9f5264f8f85298630b9a6e59ad4ac70ca12a0bf9c0ed7ec151a18"
+    },
+    "tables/frozen_boolq_roberta_source_level_metrics.csv": {
+      "source_sha256": "7ebfe3ad23196eb486ac6939cbd50e5e908518c17cc6b2819f159058d851d99f"
+    },
+    "tables/frozen_boolq_roberta_source_quality.csv": {
+      "source_sha256": "3ca522e23e5d03d039a17441eed060887a841c242d8fdd18e3428a4f42ca5b89"
+    },
+    "tables/frozen_boolq_roberta_statistical_metrics.csv": {
+      "source_sha256": "fffc03acf613521b5bb7dbdeab62e5f09ae4294f0d584c4a6f6da73b8b4e15bc"
+    },
+    "tables/frozen_development_calibrated_calibration_metrics.csv": {
+      "source_sha256": "23417a3df6a0b6dee27526ab7776798e65fc9ae1208801def8197e7efffab5c4"
+    },
+    "tables/frozen_development_calibrated_heldout_metrics.csv": {
+      "source_sha256": "b07acb35857ad35ef8830650244080f21983cc75d7d684a26ed48e9837a8bab1"
+    },
+    "tables/frozen_development_crossfit_pooled.csv": {
+      "source_sha256": "0811ab2c9e4b7e1a53bc4cf929bbabb52706fe6a5f74398b6663d9bf1f9570b8"
+    },
+    "tables/frozen_development_crossfit_quadratic.csv": {
+      "source_sha256": "8a0291edc3c72c6e4ff7bb09f1674407cbb01603ebde023e912ea44a2320fac7"
+    },
+    "tables/frozen_development_development_decision.csv": {
+      "source_sha256": "a14557295ee4e2432583b05b70245263e123d53542bdc8fd0115e929c564cf99"
+    },
+    "tables/frozen_development_hierarchical_estimates.csv": {
+      "source_sha256": "9b34fbaf9e7a3c59fbb6447395b21769584d058b8fa66be6366ba7f059dc3e8b"
+    },
+    "tables/frozen_development_independent_solver_certificates.csv": {
+      "source_sha256": "e06584f8dd7b7250bf41ff2ac60ae376c6492b396b1e225f2fe4d5564acf771f"
+    },
+    "tables/frozen_development_paired_comparisons.csv": {
+      "source_sha256": "3a68db65f60b775d1b0b7e1a8504324b185cf82a017ede77156e577f7774e3f4"
+    },
+    "tables/frozen_development_per_example_index.csv": {
+      "source_sha256": "3016fe5e21106554c42d52417ace79fcfab8921d81bedcc32334bcfab45ef4d9"
+    },
+    "tables/frozen_development_raw_calibration_metrics.csv": {
+      "source_sha256": "52bc7806f28ed0f9e09ef134cbf1dcf8da99a2fe2e232f40b37c4155048c64be"
+    },
+    "tables/frozen_development_raw_heldout_metrics.csv": {
+      "source_sha256": "0d141f3ce7672997e727e89af190176a247e70866de59f8d6cd57e6c65549d41"
+    },
+    "tables/frozen_development_reconstruction_checks.csv": {
+      "source_sha256": "433b56bbda8bee33afc4b21818d8f1f88b38ae008fc97fcdaf8e59ec17a11222"
+    },
+    "tables/frozen_development_solver_comparison.csv": {
+      "source_sha256": "a2d734d78573d9354b018c7edac55c002758612084818ca46aa8c6887c6ead2e"
+    },
+    "tables/frozen_development_source_metrics.csv": {
+      "source_sha256": "0976ffd4a7832e737d1ef21c9f9a1c2344c4a8808749cc494d2024d7e607e83a"
+    },
+    "tables/frozen_external_calibrated_calibration_metrics.csv": {
+      "source_sha256": "9c738ba3d93e3d9d912e466df854dc24d88966861e3ffd1304a8d088122228bd"
+    },
+    "tables/frozen_external_calibrated_endpoint_metrics.csv": {
+      "source_sha256": "e28b9ec6ee7bf4d2094e2f5695c4d002862c2239600e5f5878a1e22b8a438e66"
+    },
+    "tables/frozen_external_calibration_metrics.csv": {
+      "source_sha256": "98b821d237e6f75627d8c8ba050382788f6e54454f0c8bb990a4626e88abbf00"
+    },
+    "tables/frozen_external_cost_ledger.csv": {
+      "source_sha256": "374f630e525f7e25b60d1bbd02700b1be06f837e14637383e2d6385f89b3232e"
+    },
+    "tables/frozen_external_endpoint_costs.csv": {
+      "source_sha256": "3b25fbf8c27ed4d4553b773ce0c3f80d634c4e8b048520b71bf70c5399f52f77"
+    },
+    "tables/frozen_external_endpoint_metrics.csv": {
+      "source_sha256": "31fe9e11c0d0dedf0c22fb81bf8246ca1b71155e3a7087bffc2323245cbad711"
+    },
+    "tables/frozen_external_large_tensor_index.csv": {
+      "source_sha256": "5e4f076350cfda338e6a39d2109903d9b983ea20c56c6d4b08ba27013b96c8ce"
+    },
+    "tables/frozen_external_paired_uncertainty.csv": {
+      "source_sha256": "550dc4062325acf0cb508684f7c3b4934680a879559c1412bd730be24551d030"
+    },
+    "tables/frozen_external_preparation_costs.csv": {
+      "source_sha256": "f53553f29ce8987e221cc48c3ef81a29fdc386c77fd7a1fe3b97d11f77311874"
+    },
+    "tables/frozen_external_source_level_metrics.csv": {
+      "source_sha256": "a8403b1559f6c721827983f98847ede6a2f6375685a981af173dc06703c0b3d9"
+    },
+    "tables/frozen_external_source_quality.csv": {
+      "source_sha256": "7b78bb48f44a65720e0e66371025f2ce69a0cca1dd05d1a3200597c87b63a21a"
+    },
+    "tables/frozen_external_statistical_metrics.csv": {
+      "source_sha256": "d4deb1158d269916fe01661c804105ecd4cfe02233a0fb0661ba4b7791436fda"
+    },
+    "tables/full_boolq_paired_uncertainty.csv": {
+      "source_sha256": "bb388867f2a72d2d05560b5db31c827bd23730997bac7d84f58e781ab7f88707"
+    },
+    "tables/full_boolq_source_level_metrics.csv": {
+      "source_sha256": "a2f6dfbabe224dbf1fb1e3f7e485726831b18f8819cce19655388626486c8c88"
+    },
+    "tables/g1/coefficient_stability_full.csv": {
+      "source_sha256": "e6e0c1e578e5eb6cddfdb61fa39239b786f8fb7f4b914e283fab507bcea357f9"
+    },
+    "tables/g1/coefficient_stability_rank_equal_trajectories.csv": {
+      "source_sha256": "0de8478bfa4d338e5c6060c1fc06aeb9f79908a6e2988813ad06bd461d77967a"
+    },
+    "tables/g1/coefficient_stability_source_N_summary.csv": {
+      "source_sha256": "92ea92d67ce32cb160e00468307566b6da3ac0fb66d9fd6fe8a0732f66b2acec"
+    },
+    "tables/g1/g_estimator_scaling.csv": {
+      "source_sha256": "4123f0d0b12ed7fb975109b76ea4ea70e5daf2c715e8490b44343918a025557b"
+    },
+    "tables/g1/n512_G1_control_contrasts.csv": {
+      "source_sha256": "558234b4f72e206661bef8b9c3f2ced8c826fe099e10986a5b9b83101df003cc"
+    },
+    "tables/g1/n512_primary_H1_minus_G1.csv": {
+      "source_sha256": "d92581def9d43686a17c597ccb441a487e4a6e6ed8df79e9a15a0d14694ee461"
+    },
+    "tables/g1/n512_rank_H1_minus_G1.csv": {
+      "source_sha256": "4d25fa49b7aecf1f294ce8d919bf13722a569a5529bd8c5ee59125462f761b9d"
+    },
+    "tables/g1/reduced_rank_equal_trajectories.csv": {
+      "source_sha256": "bf6d77bdf6cd2be435811d982b2f9e362e23e13ca9885188a7c978ff3116dad5"
+    },
+    "tables/g1/reduced_rank_raw_kl.csv": {
+      "source_sha256": "c471f9f937c7a3d923059069c00c6c7ec4e39683473ed1c3ec5f7ea0aa9eedc0"
+    },
+    "tables/g1/reduced_source_N_summary.csv": {
+      "source_sha256": "9f4ba88e17f52ce28db26cbf4320cf9ff1aade82285bf653198033f79c16989a"
+    },
+    "tables/hierarchical_weights.csv": {
+      "source_sha256": "e8b93b4d851fa561ce03139a53acdde622a8696c8ccf9f89c67efa82cbc9ca65"
+    },
+    "tables/hierarchical_weights.md": {
+      "source_sha256": "3fffc935f673a4118786efb8da6a10302d1f4f276f89e2a48ad78dc0d26d6b25"
+    },
+    "tables/information_budget.csv": {
+      "source_sha256": "1b621b4e2712f32b6cf071dfa7ad5af4d868fda0ed0f3f4dc38cd552294314ea"
+    },
+    "tables/main_boolq_fidelity.csv": {
+      "source_sha256": "08e588d68541b123ff6bfb3e4c3513c7b0636d04090329175252b9f967e41e57"
+    },
+    "tables/main_boolq_fidelity.md": {
+      "source_sha256": "c9c7b58ae6a1bed2f1cafa5e8d3240fec123c89cba450ac476306581aa56f545"
+    },
+    "tables/main_boolq_task_tradeoffs.csv": {
+      "source_sha256": "b8b590c474b515b5011427f7c8fbcac108522d414446024a0d2916cf900c2c5d"
+    },
+    "tables/main_boolq_task_tradeoffs.md": {
+      "source_sha256": "90c299055dbefbbdfa6615c264fd83c6d31909a1c63bcb3c465eeaba2b3a6c71"
+    },
+    "tables/main_development_controls.csv": {
+      "source_sha256": "d2e353e45f617b023dff381cbd094587f0ee09e5db1cbab3edccac24bc40540a"
+    },
+    "tables/main_development_controls.md": {
+      "source_sha256": "b3aa0afa2771e2e2dc997dfbb81b77c7399976e40601aa601a5348c3f7574a08"
+    },
+    "tables/main_evaluation_roles.csv": {
+      "source_sha256": "db2db6548e3a6e934bc2e67ad8bbeedf6db60b540a481db4d23a6cf46f2cae2b"
+    },
+    "tables/main_evaluation_roles.md": {
+      "source_sha256": "8b26c13267b2c514ff0900f266ecbc1f2132fc4b2367b281988b40c2044e6c36"
+    },
+    "tables/main_external_summary.csv": {
+      "source_sha256": "2859f623826e7e76de663221ed53504d548eaca028ef3afa23f698ecedd6416b"
+    },
+    "tables/main_external_summary.md": {
+      "source_sha256": "26048c6e801dee3213dcfd78d3d361073e76da9770744198d9337d90fc3d046c"
+    },
+    "tables/source_quality_boolq.csv": {
+      "source_sha256": "4f2a868a211040c815450b291da28c5f2312a7997e517c1e18ce0a99005af85d"
+    },
+    "tables/source_quality_boolq.md": {
+      "source_sha256": "a49c562a5d07a73d55d587ccaf8b16e5da162359ffcff1f64471107558ebe157"
+    },
+    "tables/supp_boolq_control_intervals.md": {
+      "source_sha256": "df8b35dba1bbec997717d117fb62ce633e1e7ed7123c67cf5a70d5e3ef77bbe0"
+    }
+  },
+  "source_baseline": "12ed6fc8ac36ef4c117f203879446769c711e41d"
+}

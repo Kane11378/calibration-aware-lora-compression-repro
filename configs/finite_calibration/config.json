@@ -1,0 +1,67 @@
+{
+  "fixed_ridge_by_source_rank": {
+    "deberta:boolq:307": {
+      "2": 6.270630041273401e-07,
+      "4": 5.641738492600567e-07,
+      "8": 4.6243279892101723e-07
+    },
+    "deberta:boolq:401": {
+      "2": 6.946704115594212e-07,
+      "4": 6.906365453802859e-07,
+      "8": 5.414115140856455e-07
+    },
+    "deberta:boolq:503": {
+      "2": 4.502739503640181e-07,
+      "4": 4.175846728758862e-07,
+      "8": 2.941160034025913e-07
+    },
+    "roberta:boolq:607": {
+      "2": 9.41860878401468e-10,
+      "4": 5.410219094609611e-10,
+      "8": 3.8894344169400533e-10
+    },
+    "roberta:boolq:701": {
+      "2": 1.00560975483804e-06,
+      "4": 8.752317872630542e-07,
+      "8": 6.754622783094625e-07
+    },
+    "roberta:boolq:809": {
+      "2": 1.676547814016189e-06,
+      "4": 1.5057103815963587e-06,
+      "8": 1.0898708247735664e-06
+    }
+  },
+  "generator": "numpy.random.Generator(PCG64)",
+  "m0_is_archived_reuse": true,
+  "n512_unique_full_pool": true,
+  "nested": true,
+  "new_jacobian_collections": 0,
+  "new_methods": [
+    "C1",
+    "S1",
+    "H1",
+    "C2"
+  ],
+  "new_source_trainings": 0,
+  "sensitivity_endpoint": "raw source KL only",
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "subset_file_sha256": "d2d2b9fb86e151954616e5d022081b8608c299f0f7294e060e8f1e42d3ab193b",
+  "target_ranks": [
+    8,
+    4,
+    2
+  ],
+  "trajectory_seeds": [
+    202610401,
+    202610402,
+    202610403,
+    202610404,
+    202610405
+  ],
+  "validation_labels_loaded": false
+}

@@ -1,0 +1,9 @@
+method,display_method,sources,budget_short,raw_kl_h1_point_favorable,raw_kl_h1_ci_favorable,raw_kl_external_ci_favorable,raw_kl_ci_contains_zero,raw_ce_h1_point_favorable,raw_ce_h1_ci_favorable,raw_ce_external_ci_favorable,raw_ce_ci_contains_zero,cal_ce_h1_point_favorable,cal_ce_h1_ci_favorable,cal_ce_external_ci_favorable,cal_ce_ci_contains_zero,accuracy_h1_point_favorable,accuracy_h1_ci_favorable,accuracy_external_ci_favorable,accuracy_ci_contains_zero,cal_kl_h1_point_favorable,cal_kl_h1_ci_favorable,cal_kl_external_ci_favorable,cal_kl_ci_contains_zero
+SURGEON_U,Surgeon U,8,"512/source, labels",8,7,0,1,4,3,4,1,5,2,0,6,4,0,0,8,8,8,0,0
+SURGEON_S,Surgeon S,8,"512/source, labels",8,6,0,2,4,2,3,3,4,1,0,7,4,0,0,8,8,7,0,1
+PARA_COUNT,PARA count,8,no derivatives,6,6,2,0,0,0,7,1,4,0,0,8,5,0,0,8,6,6,1,1
+PARA_PARAMETER,PARA parameter,8,no derivatives,8,7,0,1,0,0,7,1,6,0,0,8,5,0,0,8,8,8,0,0
+SPECTRAL_ABS,Spectral abs,8,"128/M0-k, labels",8,8,0,0,3,2,2,4,6,1,0,7,4,1,0,7,8,8,0,0
+SPECTRAL_SMOOTH,Spectral smooth,8,"128/M0-k, labels",8,8,0,0,3,2,2,4,7,2,0,6,2,1,0,7,8,8,0,0
+SPECTRAL_RANDOM,Spectral random,8,random control,8,8,0,0,1,0,3,5,6,3,0,5,2,1,0,7,8,8,0,0
+SPECTRAL_GRAD,Spectral grad,8,"128/M0-k, labels",8,8,0,0,0,0,5,3,6,4,0,4,8,3,0,5,8,8,0,0

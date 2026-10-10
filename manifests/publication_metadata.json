@@ -1,0 +1,33 @@
+{
+  "creator": {
+    "affiliation": "College of Finance and Economics, Taiyuan University of Technology, Taiyuan 030024, Shanxi, China",
+    "email": "Kane.97022@gmail.com",
+    "name": "Kang Wang",
+    "orcid": "0009-0006-7727-1214"
+  },
+  "reproduction": {
+    "document_rebuild_supported": false,
+    "experimental_runner_complete": false,
+    "full_preprint_included": false,
+    "required_assets": [
+      "Pinned upstream models and benchmark text and labels",
+      "Trained adapters",
+      "Jacobians and endpoint execution assets",
+      "Original scientific runtime"
+    ],
+    "static_verification_command": "python -I -B code/verify_release_static.py"
+  },
+  "resource_type": "software",
+  "schema_version": 1,
+  "scientific_scope": {
+    "methods": [
+      "H1",
+      "S1",
+      "G1",
+      "constrained solver"
+    ],
+    "stored_evidence": "Complete stored results, including adverse and inconclusive comparisons, paired KL values, table and figure source data, and experimental protocols."
+  },
+  "title": "Beyond Rank: Calibration-Aware Dependency Control for Post-Training LoRA Compression",
+  "version": "1.0.1"
+}

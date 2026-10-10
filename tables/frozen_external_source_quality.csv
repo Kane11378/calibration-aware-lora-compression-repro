@@ -1,0 +1,9 @@
+task,seed,target_rank,method,view,examples,metric_status,source_reference,temperature_status,inverse_temperature,unavailable_reason,cross_entropy,ce_change_from_source,accuracy,accuracy_change_from_source,kl_source_to_candidate,prediction_disagreement,margin_change_rms,margin_change_mean_abs,mean_logit_l2,error_rate
+sst2,61,32,source,raw,2048,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.13498561261488629,0.0,0.9599609375,0.0,0.0,0.0,0.0,0.0,0.0,0.0400390625
+sst2,73,32,source,raw,2048,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.1441290461029268,0.0,0.95556640625,0.0,0.0,0.0,0.0,0.0,0.0,0.04443359375
+qnli,101,32,source,raw,5463,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.2285867529539064,0.0,0.9427054731832326,0.0,0.0,0.0,0.0,0.0,0.0,0.05729452681676739
+qnli,137,32,source,raw,5463,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.23704809407290595,0.0,0.9366648361706023,0.0,0.0,0.0,0.0,0.0,0.0,0.06333516382939774
+qnli,211,32,source,raw,5463,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.22103186154590604,0.0,0.9427054731832326,0.0,0.0,0.0,0.0,0.0,0.0,0.05729452681676739
+boolq,307,32,source,raw,3270,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.5038418327382752,0.0,0.8529051987767584,0.0,0.0,0.0,0.0,0.0,0.0,0.1470948012232416
+boolq,401,32,source,raw,3270,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.4891578958713514,0.0,0.8553516819571866,0.0,0.0,0.0,0.0,0.0,0.0,0.14464831804281342
+boolq,503,32,source,raw,3270,AVAILABLE,original_uncalibrated_source,NOT_APPLICABLE_SOURCE_RAW,,,0.41480458089587013,0.0,0.8397553516819571,0.0,0.0,0.0,0.0,0.0,0.0,0.16024464831804286

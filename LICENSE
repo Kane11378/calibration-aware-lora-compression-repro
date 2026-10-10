@@ -1,0 +1,18 @@
+Copyright (c) 2026 Kang Wang
+
+Project-authored Python source under code/ is licensed under the MIT License
+(LICENSE-MIT.txt). Project-authored results, tables, protocols, documentation,
+configuration, metadata, data-partition records and figure data are licensed
+under Creative Commons Attribution 4.0 International (CC BY 4.0), whose full
+legal text is supplied in LICENSE-CC-BY-4.0.txt.
+
+This allocation applies by file, as listed in manifests/license_scope.json.
+Third-party names, citations, legal texts, existing notices and embedded font
+rights retain their own status. The author grants only rights held in
+project-authored material. Models, datasets, tokenizers, dependencies,
+standalone fonts and checkpoints are obtained separately under provider terms.
+
+Attribution for CC BY 4.0 material: Kang Wang, Beyond Rank: Calibration-Aware Dependency Control for Post-Training LoRA Compression,
+version 1.0.1. Identify any changes when redistributing modified material.
+Consult CITATION.cff for the citation. Licenses are allocated by file;
+they are not alternative licenses for the entire artifact.

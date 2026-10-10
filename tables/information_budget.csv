@@ -1,0 +1,14 @@
+method,state,panel_derivative_examples_per_collection,uses_derivative_scores_in_coefficients,uses_labels_in_coefficients,temperature_calibration_examples,temperature_uses_labels,collections,setting
+M0,source spectrum,0,no,no,512,yes,none,spectral truncation
+C1,source-rank32,512,yes,no,512,yes,one per source reused across all ranks/controls,fixed retained directions; unchanged nonnegative coefficient solve
+S1,source-rank32,512,yes,no,512,yes,one per source reused across all ranks/controls,fixed retained directions; unchanged nonnegative coefficient solve
+H1,source-rank32,512,yes,no,512,yes,one per source reused across all ranks/controls,fixed retained directions; unchanged nonnegative coefficient solve
+C2,source-rank32,512,yes,no,512,yes,one per source reused across all ranks/controls,fixed retained directions; unchanged nonnegative coefficient solve
+SURGEON_U,source-rank32,512,yes,yes,512,yes,one source collection reused,author update; top-k directions; solve then clamp
+SURGEON_S,source-rank32,512,yes,yes,512,yes,one source collection reused,author sensitivity selection plus update; solve then clamp
+PARA_COUNT,source spectrum,0,no,no,512,yes,none,global count72*k; component count does not match factor parameters
+PARA_PARAMETER,source spectrum,0,no,no,512,yes,none,longest affordable spectral prefix; matches factor-parameter budget
+SPECTRAL_ABS,M0 rank-k,128,yes,yes,512,yes,one per source/rank shared across4 policies,mean absolute sensitivities;24 residual writers; L1 mass preserved
+SPECTRAL_SMOOTH,M0 rank-k,128,yes,yes,512,yes,one per source/rank shared across4 policies,smooth magnitude policy;24 residual writers; L1 mass preserved
+SPECTRAL_RANDOM,M0 rank-k,128,no,no,512,yes,one per source/rank shared across4 policies,fixed random indices; diagnostic ignores scores; shared panel sensitivity collection retained
+SPECTRAL_GRAD,M0 rank-k,128,yes,yes,512,yes,one per source/rank shared across4 policies,signed mean sensitivity; asymmetric gains;24 residual writers; L1 mass preserved

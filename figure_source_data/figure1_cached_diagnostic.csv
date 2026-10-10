@@ -1,0 +1,7 @@
+method,view,seed,rank,embedded_value,stored_value,source,field_or_context
+C2,fitted,61,4,1.95e-6,1.95e-6,literature/issue27_scientific_review_v01.md,"Section 5 four-fold cached diagnostic, seeds 61/73; frozen rounded summary"
+C2,fitted,73,4,2.24e-6,2.24e-6,literature/issue27_scientific_review_v01.md,"Section 5 four-fold cached diagnostic, seeds 61/73; frozen rounded summary"
+C1,held-out,61,4,1.61e-3,0.0016117434457117072,manuscript/v2/tables/frozen_development_crossfit_pooled.csv,sst2 pooled_Q_held
+C1,held-out,73,4,1.31e-3,0.0013109897148370804,manuscript/v2/tables/frozen_development_crossfit_pooled.csv,sst2 pooled_Q_held
+C2,held-out,61,4,1.90e-3,0.0019010175704716704,manuscript/v2/tables/frozen_development_crossfit_pooled.csv,sst2 pooled_Q_held
+C2,held-out,73,4,1.60e-3,0.0015977822574161982,manuscript/v2/tables/frozen_development_crossfit_pooled.csv,sst2 pooled_Q_held

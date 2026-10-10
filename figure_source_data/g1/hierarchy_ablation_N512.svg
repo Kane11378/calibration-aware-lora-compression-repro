@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="Arial, Helvetica, sans-serif" fill="#20252b" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">One-parameter versus hierarchical shrinkage</title>
+<desc id="figure-description">All eleven frozen N512 source effects in CSV order, with paired percentile95% intervals and zero lines. Seed607 is retained in the main panel and repeated on its own scale.</desc>
+<rect x="0" y="0" width="1200" height="720" fill="white"/>
+<text id="overall-title" x="38.000000000000" y="32.000000000000" font-size="20" text-anchor="start" fill="#20252b">One-parameter versus hierarchical shrinkage</text>
+<text id="main-title" x="38.000000000000" y="66.000000000000" font-size="17" text-anchor="start" fill="#20252b">A  Eleven fixed N=512 sources</text>
+<text id="main-subtitle" x="38.000000000000" y="89.000000000000" font-size="13" text-anchor="start" fill="#20252b">Point estimates and paired percentile 95% intervals</text>
+<text id="separate-title" x="840.000000000000" y="66.000000000000" font-size="16" text-anchor="start" fill="#20252b">B  Seed607 on its own scale</text>
+<line id="panel-divider" x1="812.000000000000" y1="49.000000000000" x2="812.000000000000" y2="640.000000000000" stroke="#dedfe1" stroke-width="1"/>
+<line id="main-zero" x1="542.582777635320" y1="120.000000000000" x2="542.582777635320" y2="540.000000000000" stroke="#62676d" stroke-width="1" stroke-dasharray="4 4"/>
+<text id="main-label-00" x="265.000000000000" y="145.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:sst2:61</text>
+<line id="main-ci-00" x1="531.489029480363" y1="140.000000000000" x2="543.821752080852" y2="140.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-00" x1="531.489029480363" y1="135.000000000000" x2="531.489029480363" y2="145.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-00" x1="543.821752080852" y1="135.000000000000" x2="543.821752080852" y2="145.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-00" cx="537.935057484030" cy="140.000000000000" r="3.8" fill="#255782"><title>deberta:sst2:61: H1-G1=-1.6591065496868502e-05; 95%CI=[-3.960158879048718e-05, 4.4227934354151506e-06]</title></circle>
+<text id="main-label-01" x="265.000000000000" y="183.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:sst2:73</text>
+<line id="main-ci-01" x1="538.747111649996" y1="178.000000000000" x2="548.102316668069" y2="178.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-01" x1="538.747111649996" y1="173.000000000000" x2="538.747111649996" y2="183.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-01" x1="548.102316668069" y1="173.000000000000" x2="548.102316668069" y2="183.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-01" cx="543.259912733343" cy="178.000000000000" r="3.8" fill="#255782"><title>deberta:sst2:73: H1-G1=2.4171835643792908e-06; 95%CI=[-1.3692258465465312e-05, 1.9703215904565735e-05]</title></circle>
+<text id="main-label-02" x="265.000000000000" y="221.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:qnli:101</text>
+<line id="main-ci-02" x1="536.397268177124" y1="216.000000000000" x2="603.443985914817" y2="216.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-02" x1="536.397268177124" y1="211.000000000000" x2="536.397268177124" y2="221.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-02" x1="603.443985914817" y1="211.000000000000" x2="603.443985914817" y2="221.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-02" cx="569.236607249223" cy="216.000000000000" r="3.8" fill="#255782"><title>deberta:qnli:101: H1-G1=9.5146742590321483e-05; 95%CI=[-2.2080544699736561e-05, 0.0002172575499201324]</title></circle>
+<text id="main-label-03" x="265.000000000000" y="259.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:qnli:137</text>
+<line id="main-ci-03" x1="490.606379654339" y1="254.000000000000" x2="620.019596239670" y2="254.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-03" x1="490.606379654339" y1="249.000000000000" x2="490.606379654339" y2="259.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-03" x1="620.019596239670" y1="249.000000000000" x2="620.019596239670" y2="259.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-03" cx="550.969406214371" cy="254.000000000000" r="3.8" fill="#255782"><title>deberta:qnli:137: H1-G1=2.9937926450742069e-05; 95%CI=[-0.0001855412535873974, 0.00027642785871634417]</title></circle>
+<text id="main-label-04" x="265.000000000000" y="297.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:qnli:211</text>
+<line id="main-ci-04" x1="415.671438126850" y1="292.000000000000" x2="522.882747174367" y2="292.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-04" x1="415.671438126850" y1="287.000000000000" x2="415.671438126850" y2="297.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-04" x1="522.882747174367" y1="287.000000000000" x2="522.882747174367" y2="297.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-04" cx="471.307350042956" cy="292.000000000000" r="3.8" fill="#255782"><title>deberta:qnli:211: H1-G1=-0.00025443341014712046; 95%CI=[-0.00045303810847903512, -7.0323617823086715e-05]</title></circle>
+<text id="main-label-05" x="265.000000000000" y="335.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:boolq:307</text>
+<line id="main-ci-05" x1="388.661574359603" y1="330.000000000000" x2="498.574679139259" y2="330.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-05" x1="388.661574359603" y1="325.000000000000" x2="388.661574359603" y2="335.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-05" x1="498.574679139259" y1="325.000000000000" x2="498.574679139259" y2="335.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-05" cx="450.004321000859" cy="330.000000000000" r="3.8" fill="#255782"><title>deberta:boolq:307: H1-G1=-0.00033047928610654628; 95%CI=[-0.00054945579376060663, -0.00015709664540325868]</title></circle>
+<text id="main-label-06" x="265.000000000000" y="373.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:boolq:401</text>
+<line id="main-ci-06" x1="329.166666666667" y1="368.000000000000" x2="466.029568541645" y2="368.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-06" x1="329.166666666667" y1="363.000000000000" x2="329.166666666667" y2="373.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-06" x1="466.029568541645" y1="363.000000000000" x2="466.029568541645" y2="373.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-06" cx="399.309067857567" cy="368.000000000000" r="3.8" fill="#255782"><title>deberta:boolq:401: H1-G1=-0.00051144720971253938; 95%CI=[-0.000761836031411031, -0.00027327361904870486]</title></circle>
+<text id="main-label-07" x="265.000000000000" y="411.000000000000" font-size="14" text-anchor="end" fill="#20252b">deberta:boolq:503</text>
+<line id="main-ci-07" x1="504.546703291990" y1="406.000000000000" x2="538.091986698839" y2="406.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-07" x1="504.546703291990" y1="401.000000000000" x2="504.546703291990" y2="411.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-07" x1="538.091986698839" y1="401.000000000000" x2="538.091986698839" y2="411.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-07" cx="521.240463859337" cy="406.000000000000" r="3.8" fill="#255782"><title>deberta:boolq:503: H1-G1=-7.6186111509698534e-05; 95%CI=[-0.00013577818373999804, -1.6030871940345671e-05]</title></circle>
+<text id="main-label-08" x="265.000000000000" y="449.000000000000" font-size="14" text-anchor="end" fill="#20252b">roberta:boolq:607</text>
+<line id="main-ci-08" x1="542.582791296376" y1="444.000000000000" x2="542.583271705533" y2="444.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-08" x1="542.582791296376" y1="439.000000000000" x2="542.582791296376" y2="449.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-08" x1="542.583271705533" y1="439.000000000000" x2="542.583271705533" y2="449.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-08" cx="542.583034281151" cy="444.000000000000" r="3.8" fill="#255782"><title>roberta:boolq:607: H1-G1=9.1615408303379332e-10; 95%CI=[4.8766164921893141e-11, 1.7636929492355412e-09]</title></circle>
+<text id="main-label-09" x="265.000000000000" y="487.000000000000" font-size="14" text-anchor="end" fill="#20252b">roberta:boolq:701</text>
+<line id="main-ci-09" x1="469.834425748072" y1="482.000000000000" x2="553.151029407354" y2="482.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-09" x1="469.834425748072" y1="477.000000000000" x2="469.834425748072" y2="487.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-09" x1="553.151029407354" y1="477.000000000000" x2="553.151029407354" y2="487.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-09" cx="511.629579471482" cy="482.000000000000" r="3.8" fill="#255782"><title>roberta:boolq:701: H1-G1=-0.00011049428996520817; 95%CI=[-0.00025969133933667583, 3.7725713173275219e-05]</title></circle>
+<text id="main-label-10" x="265.000000000000" y="525.000000000000" font-size="14" text-anchor="end" fill="#20252b">roberta:boolq:809</text>
+<line id="main-ci-10" x1="636.506504894748" y1="520.000000000000" x2="720.833333333333" y2="520.000000000000" stroke="#255782" stroke-width="2"/>
+<line id="main-ci-low-cap-10" x1="636.506504894748" y1="515.000000000000" x2="636.506504894748" y2="525.000000000000" stroke="#255782" stroke-width="1.3"/>
+<line id="main-ci-high-cap-10" x1="720.833333333333" y1="515.000000000000" x2="720.833333333333" y2="525.000000000000" stroke="#255782" stroke-width="1.3"/>
+<circle id="main-point-10" cx="677.996467419370" cy="520.000000000000" r="3.8" fill="#255782"><title>roberta:boolq:809: H1-G1=0.00048338912913167169; 95%CI=[0.00033528152727497253, 0.00063630480067051673]</title></circle>
+<line id="main-axis" x1="290.000000000000" y1="550.000000000000" x2="760.000000000000" y2="550.000000000000" stroke="#4b5055" stroke-width="1"/>
+<line id="main-tick-0" x1="290.000000000000" y1="550.000000000000" x2="290.000000000000" y2="557.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="main-tick-label-0" x="290.000000000000" y="576.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">-9.02e-04</text>
+<line id="main-tick-1" x1="407.500000000000" y1="550.000000000000" x2="407.500000000000" y2="557.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="main-tick-label-1" x="407.500000000000" y="576.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">-4.82e-04</text>
+<line id="main-tick-2" x1="525.000000000000" y1="550.000000000000" x2="525.000000000000" y2="557.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="main-tick-label-2" x="525.000000000000" y="576.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">-6.28e-05</text>
+<line id="main-tick-3" x1="642.500000000000" y1="550.000000000000" x2="642.500000000000" y2="557.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="main-tick-label-3" x="642.500000000000" y="576.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">3.57e-04</text>
+<line id="main-tick-4" x1="760.000000000000" y1="550.000000000000" x2="760.000000000000" y2="557.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="main-tick-label-4" x="760.000000000000" y="576.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">7.76e-04</text>
+<text id="axis-semantics" x="525.000000000000" y="607.000000000000" font-size="13" text-anchor="middle" fill="#20252b">H1 − G1 raw source KL (equal mean over ranks 8/4/2)</text>
+<text id="main-order-note" x="525.000000000000" y="633.000000000000" font-size="12" text-anchor="middle" fill="#474c52">Source order follows the frozen table; ranks are not replications.</text>
+<text id="seed607-label" x="1005.000000000000" y="122.000000000000" text-anchor="middle" font-size="14"><tspan x="1005.000000000000" y="122.000000000000">RoBERTa BoolQ 607 </tspan><tspan x="1005.000000000000" y="144.000000000000">(majority-class source; </tspan><tspan x="1005.000000000000" y="166.000000000000">separate scale)</tspan></text>
+<line id="seed607-zero" x1="884.166666666667" y1="190.000000000000" x2="884.166666666667" y2="430.000000000000" stroke="#62676d" stroke-width="1" stroke-dasharray="4 4"/>
+<line id="seed607-ci" x1="890.848757519215" y1="310.000000000000" x2="1125.833333333333" y2="310.000000000000" stroke="#8a4937" stroke-width="2"/>
+<line id="seed607-ci-low-cap" x1="890.848757519215" y1="303.000000000000" x2="890.848757519215" y2="317.000000000000" stroke="#8a4937" stroke-width="1.3"/>
+<line id="seed607-ci-high-cap" x1="1125.833333333333" y1="303.000000000000" x2="1125.833333333333" y2="317.000000000000" stroke="#8a4937" stroke-width="1.3"/>
+<circle id="seed607-point" cx="1009.700934689793" cy="310.000000000000" r="3.8" fill="#8a4937"><title>roberta:boolq:607: H1-G1=9.1615408303379332e-10; 95%CI=[4.8766164921893141e-11, 1.7636929492355412e-09]</title></circle>
+<line id="seed607-axis" x1="860.000000000000" y1="450.000000000000" x2="1150.000000000000" y2="450.000000000000" stroke="#4b5055" stroke-width="1"/>
+<line id="seed607-tick-0" x1="860.000000000000" y1="450.000000000000" x2="860.000000000000" y2="457.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="seed607-tick-label-0" x="860.000000000000" y="476.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">-1.76e-10</text>
+<line id="seed607-tick-1" x1="932.500000000000" y1="450.000000000000" x2="932.500000000000" y2="457.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="seed607-tick-label-1" x="932.500000000000" y="476.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">3.53e-10</text>
+<line id="seed607-tick-2" x1="1005.000000000000" y1="450.000000000000" x2="1005.000000000000" y2="457.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="seed607-tick-label-2" x="1005.000000000000" y="476.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">8.82e-10</text>
+<line id="seed607-tick-3" x1="1077.500000000000" y1="450.000000000000" x2="1077.500000000000" y2="457.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="seed607-tick-label-3" x="1077.500000000000" y="476.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">1.41e-09</text>
+<line id="seed607-tick-4" x1="1150.000000000000" y1="450.000000000000" x2="1150.000000000000" y2="457.000000000000" stroke="#4b5055" stroke-width="1"/>
+<text id="seed607-tick-label-4" x="1150.000000000000" y="476.000000000000" font-size="11" text-anchor="middle" fill="#3d4349">1.94e-09</text>
+<text id="seed607-axis-label" x="1005.000000000000" y="503.000000000000" font-size="13" text-anchor="middle" fill="#20252b">H1 − G1 raw source KL</text>
+<text id="seed607-interval-note" x="1005.000000000000" y="528.000000000000" font-size="12" text-anchor="middle" fill="#20252b">Same source and paired 95% interval</text>
+<text id="seed607-scale-note" x="1005.000000000000" y="552.000000000000" font-size="11" text-anchor="middle" fill="#20252b">Tiny absolute scale; source-quality caveat</text>
+<text id="negative-direction" x="38.000000000000" y="675.000000000000" font-size="14" text-anchor="start" fill="#20252b">negative = lower raw source KL for H1</text>
+<text id="positive-direction" x="38.000000000000" y="699.000000000000" font-size="14" text-anchor="start" fill="#20252b">positive = lower raw source KL for G1</text>
+<text id="interval-note" x="665.000000000000" y="685.000000000000" font-size="12" text-anchor="start" fill="#20252b">A CI crossing zero is inconclusive, not equivalence.</text>
+</svg>
